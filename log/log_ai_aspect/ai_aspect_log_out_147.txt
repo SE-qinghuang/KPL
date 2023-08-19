@@ -1,0 +1,112 @@
+Query: adding comment in .properties files.
+
+
+Questions:
+1: Which method would you like to use to add comments in .properties files?
+2: What type of comment do you want to add to the .properties files?
+3: Which language do you want to use to add the comment in the .properties files?
+please select question:
+Which method would you like to use to add comments in .properties files?
+
+Answer:
+Using a text editor to add comments to .properties files.
+
+Revised Query: Comments can be added to .properties files by using a text editor.
+
+Recommend APIs:
+1. java.util.Properties.load(InputStream inStream) 
+2. java.io.FileOutputStream.write(byte[] b, int off, int len)
+3. java.io.FileInputStream.read(byte[] b, int off, int len) 
+4. java.io.RandomAccessFile.read(byte[] b, int off, int len) 
+5. java.io.BufferedReader.readLine() 
+6. java.io.OutputStreamWriter.write(String str,int off,int len)
+
+
+Questions:
+1: What type of comment do you want to add to the .properties files?
+2: What type of comments need to be added to the .properties files?
+3: What kind of comment do you want to add to the .properties files?
+please select question:
+What type of comment do you want to add to the .properties files?
+
+Answer:
+A purpose clause comment.
+
+Revised Query: Comments can be added to .properties files by using a text editor and including a purpose clause comment.
+
+Recommend APIs:
+1. java.io.FileWriter.write(String) -- (new)
+2. java.util.Properties.load(InputStream) -- (new)
+3. java.nio.file.Files.readAllLines(Path) -- (new)
+4. java.io.BufferedReader.readLine() -- (new)
+5. java.io.BufferedWriter.write(String) -- (new)
+6. java.io.Writer.append(CharSequence) -- (new)
+7. java.util.Properties.setProperty(String,String) -- (new)
+
+
+Questions:
+1: What format should the purpose clause comment have?
+2: What type of comment do you need to add to the .properties files?
+3: What format should the comment be in?
+please select question:
+What format should the purpose clause comment have?
+
+Answer:
+The purpose clause comment should have a descriptive format.
+
+Revised Query: The best method to add a purpose clause comment to .properties files is to use a text editor and format the comment in a descriptive manner.
+
+Recommend APIs:
+1.java.io.FileWriter.write() -- (new)
+2.java.util.Properties.setProperty() -- (new)
+3.java.util.Properties.getProperty() -- (new)
+4.java.io.BufferedReader.readLine() -- (new)
+5.java.io.InputStream.read() -- (new)
+6.java.util.StringTokenizer.nextToken() -- (new)
+
+
+Questions:
+1: What is the data type of the description in the purpose clause comment?
+2: What Java data type do you require the .properties file comment to be in?
+3: What type of data should the purpose clause comment contain?
+please select question:
+What is the data type of the description in the purpose clause comment?
+
+Answer:
+String
+
+Revised Query: The method to add comments in .properties files is to use a text editor, with the purpose clause comment having a descriptive format and the data type of the description being a string.
+
+Recommend APIs:
+1. java.util.Properties.setProperty(String key, String value) -- (new)
+2. java.util.Properties.store(Writer writer, String comments) -- (new)
+3. org.apache.commons.configuration2.PropertiesConfiguration.addProperty(String key, String value) -- (new)
+4. org.apache.commons.configuration2.PropertiesConfiguration.save(Writer writer, String comment) -- (new)
+5. java.util.Map.put(Object key, Object value) -- (new)
+6. java.io.OutputStreamWriter.write(String str, int off, int len) -- (new)
+
+
+Questions:
+1: Does the purpose clause comment need to contain specific characters or keywords to match the format description?
+2: Is there a specific format required for the descriptive comments to be added in the .properties files using a text editor?
+3: What is the exact format of the purpose clause comment you want to add to the .properties files?
+please select question:
+Does the purpose clause comment need to contain specific characters or keywords to match the format description?
+
+Answer:
+Yes, the purpose clause comment needs to contain specific characters or keywords to match the format description.
+
+Revised Query: The best method to add comments in .properties files is to use a text editor and include a purpose clause comment with a descriptive format, containing specific characters or keywords to match the format description, with the data type of the description being a string.
+
+Recommend APIs:
+1. java.util.Properties.load -- (new)
+2. java.util.Properties.store -- (new)
+3. java.util.Properties.setProperty -- (new)
+4. java.io.InputStreamReader.read -- (new)
+5. java.io.OutputStreamWriter.write -- (new)
+6. java.io.FileOutputStream.open -- (new)
+7. java.io.FileInputStream.open -- (new)
+8. java.nio.file.Path.walk -- (new)
+9. java.nio.file.Files.lines -- (new)
+10. java.nio.file.PathMatcher.matches -- (new)
+end==================================

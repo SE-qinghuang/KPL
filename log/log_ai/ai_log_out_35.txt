@@ -1,0 +1,112 @@
+Query: Java parse a number in exponential notation.
+
+
+Questions:
+1: Does the number include a decimal point?
+2: Is the number a floating point or integer number?
+3: Is the number in exponential notation a floating point number or an integer?
+please select question:
+Does the number include a decimal point?
+
+Answer:
+It depends on the number.
+
+Recommend APIs:
+1. java.math.BigDecimal.parseExponential() 
+2. java.text.DecimalFormat.parse()
+3. java.lang.Double.parseDouble()
+4. java.math.BigInteger.parseExponential()
+5. java.lang.Long.parseLong()
+6. java.lang.Integer.parseInt()
+
+Revised Query: The number may or may not include a decimal point when expressed in exponential notation.
+
+
+Questions:
+1: What is the exact numerical value of the number in exponential notation you want to parse?
+2: What is the number you want to parse in exponential notation?
+3: What is the number you would like to parse in exponential notation?
+please select question:
+What is the exact numerical value of the number in exponential notation you want to parse?
+
+Answer:
+The exact numerical value of the number in exponential notation you want to parse will depend on the specific number you are trying to parse.
+
+Recommend APIs:
+1. java.lang.Double.parseDouble(String) -- (new)
+2. java.math.BigDecimal.valueOf(double) -- (new)
+3. java.math.BigInteger.valueOf(long) -- (new)
+4. java.math.RoundingMode.valueOf(String) -- (new)
+5. java.text.DecimalFormat.parse(String) -- (new)
+6. java.math.MathContext.getMathContext(int) -- (new)
+
+Revised Query: Java can parse a number in exponential notation, depending on the exact numerical value of the number.
+
+
+Questions:
+1: What is the exact numerical value of the number in exponential notation you want to parse?
+2: What is the numerical value of the number in exponential notation that you want to parse?
+3: What is the exact numerical value of the number in exponential notation that you want to parse?
+please select question:
+What is the exact numerical value of the number in exponential notation you want to parse?
+
+Answer:
+The exact numerical value of the number in exponential notation you want to parse will depend on the specific number you are trying to parse.
+
+Recommend APIs:
+1. java.lang.Double.parseDouble(String s) -- (new)
+2. java.math.BigDecimal.valueOf(long val) -- (new)
+3. java.lang.Double.parseDouble(String s, int radix) -- (new)
+4. java.lang.String.split(String regex) -- (new)
+5. java.text.NumberFormat.parse(String source) -- (new)
+6. java.math.BigInteger.valueOf(long val) -- (new)
+7. java.math.BigDecimal.BigDecimal(double val) -- (new)
+8. java.text.DecimalFormat.parse(String source) -- (new)
+9. java.math.BigDecimal.BigDecimal(String val) -- (new)
+10. java.lang.Double.valueOf(String s) -- (new)
+
+Revised Query: Java can parse a number in exponential notation, depending on the exact numerical value of the number.
+
+
+Questions:
+1: What is the exact numerical value of the number in exponential notation you want to parse?
+2: What is the exact numerical value of the number in exponential notation you are trying to parse?
+3: What is the exact numerical value of the number in exponential notation that you want to parse?
+please select question:
+What is the exact numerical value of the number in exponential notation you want to parse?
+
+Answer:
+The exact numerical value of the number in exponential notation you want to parse will depend on the specific number you are trying to parse.
+
+Recommend APIs:
+1. Double.parseDouble(String s) -- (new)
+2. BigDecimal.valueOf(double val) -- (new)
+3. MathContext.UNLIMITED -- (new)
+4. DecimalFormat.parse(String source) -- (new)
+5. DecimalFormatSymbols.getExponentSeparator() -- (new)
+6. BigDecimal.toString() -- (new)
+
+Revised Query: Java can parse a number in exponential notation, depending on the exact numerical value of the number.
+
+
+Questions:
+1: What is the numerical value of the number in exponential notation you want to parse?
+2: What is the exact numerical value of the number you want to parse?
+3: What is the exact numerical value of the number in exponential notation that you want to parse?
+please select question:
+What is the numerical value of the number in exponential notation you want to parse?
+
+Answer:
+The numerical value of the number in exponential notation you want to parse will depend on the specific number you are trying to parse.
+
+Recommend APIs:
+1. java.lang.Double.parseDouble(String s)
+2. java.util.Formatter.format(String format, Object... args) -- (new)
+3. java.math.BigDecimal.valueOf(String val) -- (new)
+4. java.lang.Integer.parseInt(String s) -- (new)
+5. java.text.NumberFormat.parse(String source)
+6. java.util.Scanner.nextBigDecimal() -- (new)
+
+Revised Query: Java can parse a number in exponential notation, depending on the exact numerical value of the number.
+
+end==================================

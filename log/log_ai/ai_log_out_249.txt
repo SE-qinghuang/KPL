@@ -1,0 +1,99 @@
+Query: Pick a number randomly from two numbers.
+
+
+Questions:
+1: What are the two numbers you'd like to randomly pick from?
+2: Which two numbers do you want to choose from?
+3: What are the two numbers that you want to choose a random number from?
+please select question:
+What are the two numbers you'd like to randomly pick from?
+
+Answer:
+Please provide two numbers.
+
+Recommend APIs:
+1. java.util.Random.nextInt(int bound)
+
+2. java.util.Random.ints(int origin, int bound)
+
+Revised Query: Please provide two numbers and a random number will be picked from them.
+
+
+Questions:
+1: What is the difference between the two numbers?
+2: What is the range of numbers that you'd like to pick from?
+3: What range would the two numbers be within?
+please select question:
+What is the difference between the two numbers?
+
+Answer:
+The difference between the two numbers is unknown, as the question is asking you to pick a number randomly from the two numbers.
+
+Recommend APIs:
+1. java.util.Random.nextInt(int bound)
+2. java.util.Random.nextInt(int origin, int bound) -- (new)
+3. java.util.Random.nextFloat() -- (new)
+4. java.util.Collections.shuffle(List<?> list) -- (new)
+5. java.lang.String.valueOf(int i) -- (new)
+
+Revised Query: A random number will be chosen from the two provided numbers.
+
+
+Questions:
+1: What are the two numbers that you would like to pick a number from?
+2: What are the two numbers?
+3: What is the range of the two numbers?
+please select question:
+What are the two numbers that you would like to pick a number from?
+
+Answer:
+Please provide the two numbers you would like to choose from.
+
+Recommend APIs:
+1. java.util.Random.nextInt(int bound)
+2. java.util.Random.nextInt(int origin, int bound)
+3. java.util.Random.nextLong(long bound) -- (new)
+4. java.util.Random.nextLong(long origin, long bound) -- (new)
+5. java.util.Random.ints(int origin, int bound)
+6. java.util.Random.longs(long origin, long bound) -- (new)
+7. java.util.Random.doubles(double origin, double bound) -- (new)
+
+Revised Query: Please provide two numbers from which a number will be randomly chosen.
+
+
+Questions:
+1: What are the two numbers you would like to pick from?
+2: What are the two numbers you would like to choose from?
+3: What are the two numbers you'd like to choose from?
+please select question:
+What are the two numbers you would like to pick from?
+
+Answer:
+Please provide the two numbers you would like to pick from.
+
+Recommend APIs:
+1. java.util.Random.nextInt(int bound)
+2. java.util.Random.nextDouble() -- (new)
+3. java.util.Random.ints() -- (new)
+4. java.util.Random.ints(int origin, int bound)
+
+Revised Query: Please provide two numbers from which a number will be randomly chosen.
+
+
+Questions:
+1: What are the two numbers you would like to pick from?
+2: What is the range of these two numbers?
+3: What is the range of the two numbers?
+please select question:
+What are the two numbers you would like to pick from?
+
+Answer:
+Please provide the two numbers you would like to pick from.
+
+Recommend APIs:
+1. java.util.Random.nextInt(int bound)
+2. java.util.Random.nextBoolean() -- (new)
+
+Revised Query: Please provide two numbers from which a number will be randomly chosen.
+
+end==================================

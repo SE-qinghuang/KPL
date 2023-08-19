@@ -1,0 +1,109 @@
+Query: Double value to round up in Java.
+
+
+Questions:
+1: What is the maximum decimal place to which you would like to round up the double value?
+2: What type of rounding would you like? Up, down, floor, or ceiling?
+3: What is the precision of the round up (e.g. nearest tenth, hundredth, etc.)?
+please select question:
+What is the maximum decimal place to which you would like to round up the double value?
+
+Answer:
+The maximum decimal place to which you would like to round up the double value is up to you.
+
+Recommend APIs:
+Answer
+1. java.lang.Math.round(double a)
+2. java.math.BigDecimal.setScale(int newScale, RoundingMode roundingMode)
+3. java.math.RoundingMode.valueOf(String name)
+4. java.lang.Double.toString(double d)
+
+Revised Query: The double value can be rounded up to any decimal place desired in Java.
+
+
+Questions:
+1: What is the maximum decimal place to which you would like to round up the double value?
+2: What decimal place would you like to round up the double value to?
+3: What is the maximum decimal place to which you would like to round the double value?
+please select question:
+What is the maximum decimal place to which you would like to round up the double value?
+
+Answer:
+The maximum decimal place to which you would like to round up the double value is up to you.
+
+Recommend APIs:
+1. java.lang.Math.round -- (new)
+2. java.lang.Math.ceil  -- (new)
+3. java.math.BigDecimal.setScale -- (new)
+4. java.math.RoundingMode.UP -- (new)
+5. java.text.DecimalFormat.setRoundingMode -- (new)
+6. java.text.NumberFormat.setMaximumFractionDigits -- (new)
+
+Revised Query: The double value can be rounded up to any decimal place desired in Java.
+
+
+Questions:
+1: What is the maximum decimal place to which you would like to round up the double value?
+2: What is the maximum decimal place up to which you would like to round up the double value?
+3: What is the maximum decimal place you would like to round up the double value to?
+please select question:
+What is the maximum decimal place to which you would like to round up the double value?
+
+Answer:
+The maximum decimal place to which you would like to round up the double value is up to you.
+
+Recommend APIs:
+1. java.math.BigDecimal.setScale(int, RoundingMode) -- (new)
+2. java.lang.Math.round(double) -- (new)
+3. java.math.RoundingMode -- (new)
+4. java.text.DecimalFormat.format() -- (new)
+5. java.lang.Math.ceil(double) -- (new)
+6. java.lang.Math.floor(double) -- (new)
+
+Revised Query: The double value can be rounded up to any decimal place as desired.
+
+
+Questions:
+1: What is the maximum decimal place to which you would like to round up the double value?
+2: What maximum decimal place would you like to round up the double value to?
+3: What is the maximum decimal place to which you would like to round the double value?
+please select question:
+What is the maximum decimal place to which you would like to round up the double value?
+
+Answer:
+The maximum decimal place to which you would like to round up the double value is up to you.
+
+Recommend APIs:
+1. java.math.BigDecimal.setScale(int, RoundingMode)
+2. java.lang.Math.round(double)
+3. java.lang.Math.ceil(double)
+4. java.lang.Math.floor(double)
+
+Revised Query: The double value can be rounded up to any decimal place as desired.
+
+
+Questions:
+1: What is the maximum decimal place to which you would like to round up the double value?
+2: How many decimal places would you like to round the double value up to?
+3: How many decimal places would you like to round up the double value to?
+please select question:
+What is the maximum decimal place to which you would like to round up the double value?
+
+Answer:
+The maximum decimal place to which you would like to round up the double value is up to you.
+
+Recommend APIs:
+1. java.math.RoundingMode.HALF_UP -- (new)
+2. java.math.BigDecimal.setScale(int newScale, RoundingMode roundingMode)
+3. java.math.MathContext.getRoundingMode()  -- (new)
+4. java.math.RoundingMode.valueOf(String rm) -- (new)
+5. java.math.MathContext.setRoundingMode(RoundingMode roundingMode) -- (new)
+6. java.math.RoundingMode.DOWN -- (new)
+7. java.math.RoundingMode.HALF_DOWN -- (new)
+8. java.math.BigDecimal.round(MathContext mc) -- (new)
+9. java.math.RoundingMode.CEILING -- (new)
+10. java.math.BigDecimal.scale() -- (new)
+
+Revised Query: The double value can be rounded up to any decimal place as desired.
+
+end==================================

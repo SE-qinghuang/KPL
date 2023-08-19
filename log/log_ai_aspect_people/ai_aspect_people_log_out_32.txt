@@ -1,0 +1,61 @@
+Query: Calculate whether an IP address is in a specified range in Java.
+
+
+Questions:
+1: What type of IP address (IPv4 or IPv6) are you looking to check?
+2: What type of IP address range format do you want to use? (e.g. CIDR range, IP range, etc.)
+3: What type of IP address is being used (IPv4/IPv6)?
+please select question:
+What type of IP address (IPv4 or IPv6) are you looking to check?
+
+Help information:
+1. IPv4 
+2. IPv6
+
+please input answer:
+Answer: IPv6.
+
+Revised Query: Calculate whether an IPv6 address is in a specified range in Java.
+
+Recommend APIs:
+1. InetAddress.getByName(String)
+2. InetAddress.getHostAddress()
+3. InetAddress.getAddress()
+4. Inet6Address.getByAddress(String, byte[], int)
+5. Inet6Address.isReachable(int)
+6. Inet6Address.isInet6MulticastAddress()
+7. Inet6Address.isIPv4CompatibleAddress()
+8. Inet6Address.isLinkLocalAddress()
+9. Inet6Address.isSiteLocalAddress()
+10. Inet6Address.getScopeId()
+11. Inet6Address.isInet6Reachable(int)
+12. Inet6Address.isReachable(NetworkInterface, int, int)
+13. Inet6Address.isInRange(Inet6Address, Inet6Address)
+
+
+Questions:
+1: What Java data type would you like to use to store the IP address and range?
+2: Is the IP address stored in a String or a byte array?
+3: Is the IP address an IPv4 or an IPv6 address?
+please select question:
+Is the IP address stored in a String or a byte array?
+
+Help information:
+1. String 
+2. byte array
+
+please input answer:
+Answer: byte array
+
+Revised Query: Calculate whether an IPv6 address stored in a byte array is in a specified range in Java.
+
+Recommend APIs:
+1. java.net.InetAddress.getByAddress(byte[] addr) -- (new)
+2. java.net.InetAddress.isReachable(int timeout) -- (new)
+3. java.net.InetAddress.equals(Object obj) -- (new)
+4. java.net.Inet6Address.getHostAddress() -- (new)
+5. java.net.Inet6Address.getHostName() -- (new)
+6. java.net.Inet6Address.getByAddress(String host, byte[] addr, int scope_id) -- (new)
+7. java.net.InetAddress.getScopeId() -- (new)
+8. java.net.InetAddress.getByName(String host, int scope_id) -- (new)
+end==================================

@@ -1,0 +1,119 @@
+Query: Defensive copy of Calendarc.
+
+
+Questions:
+1: What action do you need to perform with the defensive copy of Calendar?
+2: Is the defensive copy of Calendar needed before or after a setter/getter operation on the Calendar object?
+3: What kind of defensive copy of Calendar object is needed?
+please select question:
+What action do you need to perform with the defensive copy of Calendar?
+
+Answer:
+Make a backup of the Calendar data.
+
+Revised Query: A defensive copy of Calendar should be made in order to create a backup of the Calendar data.
+
+Recommend APIs:
+1. java.util.Calendar.clone()
+2. java.util.Calendar.setTimeInMillis(long millis)
+3. java.util.Calendar.getTimeInMillis()
+4. java.util.Calendar.compareTo(Calendar anotherCalendar)
+5. java.util.Calendar.getTime()
+6. java.util.Date.getTime()
+
+
+Questions:
+1: What exact steps are needed to make a defensive copy of the Calendar data?
+2: What is the purpose of making a backup of the Calendar data?
+3: What method can be used to make a defensive copy of the Calendar data?
+please select question:
+What exact steps are needed to make a defensive copy of the Calendar data?
+
+Answer:
+To make a defensive copy of the Calendar data, the steps needed are to back up the data, store it securely, and ensure that it can be accessed if needed.
+
+Revised Query: A defensive copy of Calendar should be made by backing up the data, storing it securely, and ensuring that it can be accessed if needed.
+
+Recommend APIs:
+1. java.util.Calendar.setTimeZone(TimeZone zone)  -- (new)
+2. java.util.Calendar.getTimeInMillis()  -- (new)
+3. java.util.TimeZone.getDisplayName() -- (new)
+4. java.util.TimeZone.getTimeZone(String ID)  -- (new)
+5. java.io.File.createNewFile() -- (new)
+6. java.io.FileOutputStream.write()  -- (new)
+7. java.io.FileInputStream.read() -- (new)
+8. java.io.FileInputStream.close()  -- (new)
+9. java.io.FileOutputStream.close()  -- (new)
+10. java.io.File.exists()  -- (new)
+11. java.io.File.canRead()  -- (new)
+12. java.io.File.canWrite() -- (new)
+
+
+Questions:
+1: What is the workflow used to create the defensive copy of the Calendar data?
+2: What is the desired end result of making a defensive copy of the Calendar data?
+3: Are you looking for steps to take for making a defensive copy of the Calendar data, or for an API that can be used to implement the defensive copy?
+please select question:
+What is the workflow used to create the defensive copy of the Calendar data?
+
+Answer:
+The workflow used to create the defensive copy of the Calendar data is to back up the data regularly.
+
+Revised Query: A defensive copy of Calendar data should be created by regularly backing up the data, storing it securely, and ensuring that it can be accessed if needed.
+
+Recommend APIs:
+1. java.util.Calendar.clone()
+2. java.util.Calendar.getTimeInMillis()
+3. java.util.Calendar.setTime() -- (new)
+4. java.util.Date.getTime()
+5. java.io.File.exists() -- (new)
+6. java.io.File.mkdirs() -- (new)
+7. java.nio.file.Files.copy() -- (new)
+8. java.nio.file.Files.setPosixFilePermissions() -- (new)
+
+
+Questions:
+1: What data type should the defensive copy of the Calendar data be in?
+2: What data type should be used for the defensive copy of Calendar data?
+3: What is the Java data type of the Calendar data that requires a defensive copy?
+please select question:
+What data type should the defensive copy of the Calendar data be in?
+
+Answer:
+The data type for the defensive copy of the Calendar data should be "Object".
+
+Revised Query: A defensive copy of Calendar data should be created by regularly backing up the data, storing it securely, and ensuring that it can be accessed if needed, in an Object data type.
+
+Recommend APIs:
+1. java.util.Calendar.getTimeInMillis() 
+2. java.util.Calendar.getInstance() -- (new)
+3. java.util.Calendar.clone()
+4. java.util.Objects.copy() -- (new)
+5. java.util.Calendar.compareTo() -- (new)
+6. java.io.FileOutputStream.write() -- (new)
+7. java.io.FileInputStream.read()
+8. java.nio.file.Files.copy()
+9. java.security.SecureRandom.getInstance() -- (new)
+10. java.nio.file.attribute.PosixFilePermission.Implies() -- (new)
+
+
+Questions:
+1: What type of data structure is required for the defensive copy of the Calendar data?
+2: What type of object should be used to create the defensive copy of the Calendar data?
+3: What data type should be used for the defensive copy of the Calendar data?
+please select question:
+What type of data structure is required for the defensive copy of the Calendar data?
+
+Answer:
+A defensive copy of the Calendar data requires a deep copy data structure.
+
+Revised Query: A defensive copy of Calendar data should be created by regularly backing up the data, storing it securely, and ensuring that it can be accessed if needed, using a deep copy data structure and an Object data type.
+
+Recommend APIs:
+1. java.util.Calendar.clone()
+2. java.util.Arrays.copyOf() -- (new)
+3. java.nio.file.Files.copy()
+4. java.nio.file.Paths.get() -- (new)
+5. java.nio.file.Path.exists() -- (new)
+6. java.io.File.exists()
+end==================================

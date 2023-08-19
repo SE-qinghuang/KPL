@@ -1,0 +1,109 @@
+Query: Get words around a position in a string.
+
+
+Questions:
+1: What is the desired length of the word(s) that you want to get around the position in the string?
+2: How many words do you need to retrieve around the position in the string?
+3: Is the position of the word in the string a fixed value, specified beforehand, or should it be obtained dynamically?
+please select question:
+Is the position of the word in the string a fixed value, specified beforehand, or should it be obtained dynamically?
+
+Help information:
+1. Fixed value, specified beforehand 
+2. Obtained dynamically
+
+please input answer:
+Answer: Fixed value, specified beforehand
+
+Revised Query: The query is to get words around a fixed position in a string, specified beforehand.
+
+Recommend APIs:
+1. java.lang.String.substring(int beginIndex, int endIndex)
+2. java.lang.String.subSequence(int beginIndex, int endIndex) 
+3. java.lang.String.indexOf(int ch, int fromIndex) 
+4. java.lang.String.indexOf(String str, int fromIndex) 
+5. java.lang.String.charAt(int index) 
+6. java.lang.String.length()
+
+
+Questions:
+1: What is the fixed value provided beforehand?
+2: What is the specified predetermined position in the string?
+3: What is the fixed value position that is specified beforehand for the string?
+please select question:
+What is the specified predetermined position in the string?
+
+Help information:
+1. The starting position of the string.
+2. The ending position of the string.
+3. The position of the word in the string.
+4. The position of the character in the string.
+
+please input answer:
+Answer: a particular symbol.
+
+Revised Query: The query is to get words around a particular symbol in a string, specified beforehand.
+
+Recommend APIs:
+1. java.lang.String.substring(int beginIndex, int endIndex)
+2. java.lang.String.split(String regex) -- (new)
+3. java.util.StringTokenizer.nextToken() -- (new)
+4. java.lang.String.indexOf(String str) -- (new)
+5. java.util.StringTokenizer.hasMoreTokens() -- (new)
+6. java.lang.String.length()
+
+
+Questions:
+1: How many words before and after the position do you want to get?
+2: Are you looking for words that occur before or after the specified position and what is the maximum number of words you would like to find?
+3: What is the fixed value and what is the particular symbol?
+please select question:
+How many words before and after the position do you want to get?
+
+Help information:
+1. The exact number of words before and after the position.
+2. A range of words before and after the position.
+3. All words before and after the position.
+4. A specific number of words before and after the position.
+
+please input answer:
+Answer: A specific number of words before and after the position.
+
+Revised Query: Get a specific number of words before and after a particular symbol in a string.
+
+Recommend APIs:
+1. java.lang.String.indexOf(int ch) -- (new)
+2. java.lang.String.lastIndexOf(int ch) -- (new)
+3. java.lang.String.substring() -- (new)
+4. java.lang.String.substring(int beginIndex, int endIndex)
+5. java.lang.String.split() -- (new)
+6. java.util.Arrays.copyOfRange() -- (new)
+7. java.util.StringTokenizer.nextToken()
+8. java.lang.String.indexOf(String str, int fromIndex) -- (new)
+9. java.util.ArrayList.add() -- (new)
+10. java.lang.String.length() -- (new)
+
+
+Questions:
+1: Could you please provide the number of words before and after the position and the particular symbol of which you're looking for the surrounding words?
+2: What is the fixed value and what is the particular symbol? How many words do you need before and after the specified position?
+3: Is the position around a particular symbol or a particular number of words before and after it?
+please select question:
+Is the position around a particular symbol or a particular number of words before and after it?
+
+Help information:
+1. The position is around a particular symbol.
+2. The position is around a particular number of words before and after it.
+
+please input answer:
+Answer: The position is around a particular number of words before and after it.
+
+Revised Query: The query is to get a specific number of words before and after a particular symbol in a string.
+
+Recommend APIs:
+1) java.lang.String.substring(int beginIndex, int endIndex)
+2) java.lang.String.indexOf(int ch, int fromIndex) -- (new)
+3) java.lang.String.length()
+4) java.lang.String.charAt(int index) -- (new)
+5) java.lang.String.split(String regex)
+end==================================

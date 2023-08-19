@@ -1,0 +1,114 @@
+Query: Java Wait for thread to finish.
+
+
+Questions:
+1: Is the thread being waited for running in the same process or a different process?
+2: Are you trying to cause the current thread to wait until another thread has finished its execution?
+3: Is the thread expecting any result or return values, or just to wait for it to end?
+please select question:
+Is the thread being waited for running in the same process or a different process?
+
+Answer:
+The thread being waited for is running in the same process.
+
+Recommend APIs:
+1. java.lang.Thread.join() 
+2. java.lang.Thread.isAlive() 
+3. java.lang.Thread.interrupt() 
+4. java.lang.Thread.suspend() 
+5. java.util.concurrent.CountDownLatch.await() 
+6. java.lang.Thread.wait() 
+7. java.util.concurrent.ExecutorService.shutdown() 
+8. java.util.concurrent.ExecutorCompletionService.take() 
+9. java.util.concurrent.CompletableFuture.join()
+
+Revised Query: The thread being waited for is running in the same process as the thread that is waiting.
+
+
+Questions:
+1: Is the thread started as a part of this process or as an external process?
+2: Is the thread being waited for running on the same thread or across multiple threads?
+3: Is the thread running in a separate thread from the current thread?
+please select question:
+Is the thread started as a part of this process or as an external process?
+
+Answer:
+As an external process.
+
+Recommend APIs:
+1. java.lang.Process.waitFor() -- (new)
+2. java.lang.ProcessBuilder.start() -- (new)
+3. java.lang.Thread.join() 
+4. java.lang.Thread.getState()  -- (new)
+5. java.lang.Process.isAlive()  -- (new)
+6. java.lang.Thread.isAlive() -- (new)
+
+Revised Query: The thread being waited for is running in the same process and was started as an external process.
+
+
+Questions:
+1: Is this thread running in the same process, or as an external process?
+2: Is the thread running in the same process as the program, or as an external process?
+3: Is the thread running in the same process or in an external process?
+please select question:
+Is this thread running in the same process, or as an external process?
+
+Answer:
+Same process.
+
+Recommend APIs:
+1. java.lang.Object.wait(); -- (new)
+2. java.lang.Thread.join(); -- (new)
+3. java.lang.Thread.interrupt(); -- (new)
+4. java.lang.Thread.getState(); -- (new)
+5. java.lang.Thread.setDaemon(); -- (new)
+6. java.lang.Thread.isAlive(); -- (new)
+7. java.lang.Thread.start(); -- (new)
+8. java.lang.ThreadGroup.activeCount(); -- (new)
+9. java.lang.ThreadGroup.enumerate(); -- (new)
+
+Revised Query: The thread being waited for is running in the same process and was started as an external process.
+
+
+Questions:
+1: Is the thread running in the same process as the caller?
+2: Is this thread running in the same process as the current one, or as an external process?
+3: Is the thread being waited on running in the same process or as an external process?
+please select question:
+Is the thread running in the same process as the caller?
+
+Answer:
+It depends.
+
+Recommend APIs:
+1. Object.wait(); -- (new)
+2. Object.notify(); -- (new)
+3. Object.notifyAll(); -- (new)
+4. Thread.join(); -- (new)
+5. Thread.interrupt(); -- (new)
+
+Revised Query: The thread being waited for is running in the same process as the caller, either as a part of the process or as an external process.
+
+
+Questions:
+1: Is the thread being waited for running in the same process as the waiting thread, or in an external process?
+2: Is the thread being waited for running in the same process or as an external process?
+3: Is the thread being waited for running in the same process, an external process, or both?
+please select question:
+Is the thread being waited for running in the same process as the waiting thread, or in an external process?
+
+Answer:
+In the same process as the waiting thread.
+
+Recommend APIs:
+1. Object.wait()  -- (new)
+2. Object.notify() -- (new)
+3. Thread.getState() -- (new)
+4. Thread.join()  -- (new)
+5. Thread.setDaemon()  -- (new)
+6. Thread.sleep() -- (new)
+7. Thread.interrupt() -- (new)
+
+Revised Query: The thread being waited for is running in the same process as the waiting thread.
+
+end==================================

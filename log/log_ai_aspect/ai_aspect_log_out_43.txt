@@ -1,0 +1,110 @@
+Query: Make a negative number positive.
+
+
+Questions:
+1: What type of data do you wish to use for making the negative number positive (integer, float, double etc.)?
+2: What is the type of the number (integer, float, etc.)?
+3: How would you like the negative number to be converted to a positive number (e.g. by adding a constant value, or by multiplying with a factor)? What is the desired result?
+please select question:
+What type of data do you wish to use for making the negative number positive (integer, float, double etc.)?
+
+Answer:
+Integer.
+
+Revised Query: Multiply the negative integer by -1 to make it positive.
+
+Recommend APIs:
+1. java.lang.Math.negateExact(int a) 
+2. java.lang.Math.multiplyExact(int x, int y) 
+3. java.lang.Math.abs(int a)
+
+
+Questions:
+1: Which type of number (byte, int, long, etc.) do you want to convert to a positive number?
+2: Are you looking for a Java API to convert an Integer to its absolute value?
+3: What type of Java built-in data type is the negative number (i.e. byte, float, char, boolean, double, etc)?
+please select question:
+Which type of number (byte, int, long, etc.) do you want to convert to a positive number?
+
+Answer:
+int
+
+Revised Query: The negative integer can be converted to a positive integer by multiplying it by -1.
+
+Recommend APIs:
+1. java.lang.Math.negateExact(int a) -- (new)
+2. java.lang.Integer.signum(int i) -- (new)
+3. java.lang.Math.multiplyExact(int x, int y) 
+4. java.lang.Integer.negate(int a) -- (new)
+
+
+Questions:
+1: Is the original number an int or a double?
+2: What range of integers is the number in?
+3: Can you provide any additional information about the correct behavior to use when making a negative number positive?
+please select question:
+Is the original number an int or a double?
+
+Answer:
+It depends on the original number.
+
+Revised Query: The query is to convert an integer (byte, int, long, etc.) to a positive number.
+
+Recommend APIs:
+1. java.lang.Math.abs(int a)
+2. java.util.Math.max(int a, int b) -- (new)
+3. java.lang.Integer.valueOf(String s) -- (new)
+4. java.lang.Integer.toUnsignedLong(int i) -- (new)
+5. java.lang.Integer.toUnsignedString(int i) -- (new)
+6. java.lang.Integer.parseUnsignedInt(String s,int radix) -- (new)
+7. java.lang.Byte.toUnsignedInt(byte b) -- (new)
+8. java.lang.Short.toUnsignedInt(short s) -- (new)
+9. java.lang.Long.toUnsignedString(long i) -- (new)
+10. java.lang.Long.parseUnsignedLong(String s,int radix) -- (new)
+
+
+Questions:
+1: Is the original number a signed or unsigned integer?
+2: Is the original number a negative or a positive integer?
+3: Is the original number a positive or negative integer?
+please select question:
+Is the original number a signed or unsigned integer?
+
+Answer:
+Signed integer.
+
+Revised Query: The query is to convert a signed integer to a positive number.
+
+Recommend APIs:
+1. java.lang.Math.abs(int a)
+2. java.util.Math.abs(int a) -- (new)
+3. java.lang.Integer.abs(int a) -- (new)
+4. java.lang.StrictMath.abs(int a) -- (new)
+5. java.lang.Math.negateExact(int a)
+6. java.lang.Integer.signum(int a) -- (new)
+
+
+Questions:
+1: Is the original number a signed or unsigned integer?
+2: Is the original number a positive or negative signed integer?
+3: What type of signed integer is the negative number (unsigned/two's complement/one's complement)?
+please select question:
+Is the original number a signed or unsigned integer?
+
+Answer:
+Signed integer.
+
+Revised Query: The query is to convert a signed integer to a positive number.
+
+Recommend APIs:
+1. Math.abs(int) -- (new)
+2. Integer.toUnsignedString(int) -- (new)
+3. Integer.toUnsignedLong(int) -- (new)
+4. Integer.compareUnsigned(int, int) -- (new)
+5. Integer.lowestOneBit(int) -- (new)
+6. Integer.highestOneBit(int) -- (new)
+7. Integer.unsignedDivide(int, int) -- (new)
+8. Integer.unsignedRemainder(int, int) -- (new)
+9. Integer.parseUnsignedInt(String) -- (new)
+10. Integer.signum(int) -- (new)
+end==================================

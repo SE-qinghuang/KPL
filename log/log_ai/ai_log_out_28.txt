@@ -1,0 +1,107 @@
+Query: Grouping by List of Map in Java 8.
+
+
+Questions:
+1: Which interfaces will you be using to group the List of Maps with?
+2: Are you trying to group items in the List of Map or from a single Map?
+3: Are you looking to group elements within the Map or use the Map to group list elements?
+please select question:
+Which interfaces will you be using to group the List of Maps with?
+
+Answer:
+The Collector interface will be used to group the List of Maps.
+
+Recommend APIs:
+1. java.util.stream.Collectors.groupingBy(Classifier<? super T>, Collector<? super T,A,D>) 
+2. java.util.stream.Collectors.toList() 
+3. java.util.Map.entrySet() 
+4. java.util.Map.put() 
+5. java.util.List.add()
+
+Revised Query: The Collector interface will be used to group the List of Maps in Java 8.
+
+
+Questions:
+1: Which class of Collector will be used to group the List of Maps (eg. GroupingBy, Joining etc.)?
+2: What kind of output data structure would you like after the grouping is completed?
+3: Which operations need to be performed on the List of Maps?
+please select question:
+Which class of Collector will be used to group the List of Maps (eg. GroupingBy, Joining etc.)?
+
+Answer:
+GroupingBy
+
+Recommend APIs:
+1. java.util.stream.Collectors.groupingBy(Function<? super T,? extends K> classifier) -- (new)
+2. java.util.stream.Collector.Characteristics.CONCURRENT -- (new)
+3. java.util.Collection.Stream -- (new)
+4. java.util.Map.Entry.getValue()  -- (new)
+5. java.util.Map.Entry.getKey()  -- (new)
+6. java.util.stream.Collectors.mapping(Function<? super T,? extends U> mapper, Collector<? super U,A,R> downstream) -- (new)
+7. java.util.stream.Collectors.toList() 
+8. java.util.stream.Collectors.toMap(Function<? super T,? extends K> keyMapper, Function<? super T,? extends U> valueMapper) -- (new)
+
+Revised Query: The Collector interface will be used to group the List of Maps, using the GroupingBy class.
+
+
+Questions:
+1: What is the expected return type for the grouping operation?
+2: Which particular data type needs to be retrieved from the List of Maps after the Collector interface is applied?
+3: "What kind of output do you expect from the Collector interface?"
+please select question:
+What is the expected return type for the grouping operation?
+
+Answer:
+Map<Object, List<Object>>
+
+Recommend APIs:
+1. java.util.stream.Collectors.groupingBy(Function<? super T,? extends K> classifier)
+2. java.util.List.stream() -- (new)
+3. java.util.stream.Collectors.toMap(Function<? super T,? extends K> keyMapper, Function<? super T,? extends U> valueMapper)
+4. java.util.stream.Collectors.toList() -- (new)
+
+Revised Query: The Collector interface's GroupingBy class will be used to group the List of Maps, with the expected return type being Map<Object, List<Object>>.
+
+
+Questions:
+1: Would you like to group the list of maps based on a common key within each map?
+2: What type of Object do you want the grouping to be based on?
+3: What type of key and values do you want to use for the grouping operation?
+please select question:
+Would you like to group the list of maps based on a common key within each map?
+
+Answer:
+Yes.
+
+Recommend APIs:
+1. java.util.Stream.collect(Collector) -- (new)
+2. java.util.stream.Collectors.groupingBy(Function) -- (new)
+3. java.util.stream.Collectors.toList()
+4. java.util.HashMap.put(Object, List<Object>) -- (new)
+5. java.util.Map.entrySet() -- (new)
+6. java.util.List.stream()
+
+Revised Query: The Collector interface's GroupingBy class will be used to group the List of Maps, with the expected return type being a Map<Object, List<Object>>, based on a common key within each map.
+
+
+Questions:
+1: Which key types need to be used for creating the GroupingByMap?
+2: Are you attempting to group the List of Maps by a specific key or multiple keys?
+3: What specific data type do you wish to collect on each of the list elements?
+please select question:
+Which key types need to be used for creating the GroupingByMap?
+
+Answer:
+The key type used for creating the GroupingByMap needs to be a Function.
+
+Recommend APIs:
+1. java.util.stream.Collectors.groupingBy(Function<? super T,? extends K> classifier)  -- (new)
+2. java.util.stream.Collectors.toMap(Function<? super T,? extends K> keyMapper, Function<? super T,? extends U> valueMapper)  -- (new)
+3. java.util.function.Function.apply(Object t)  -- (new)
+4. java.util.List.forEach(Consumer<? super T> action) -- (new)
+5. java.util.Map.put(Object key, Object value)  -- (new)
+6. java.util.List.add(E e) -- (new)
+
+Revised Query: The Collector interface will be used to group the List of Maps using the GroupingBy class, which will return a Map<Object, List<Object>> based on a common key within each map, using a Function as the key type.
+
+end==================================

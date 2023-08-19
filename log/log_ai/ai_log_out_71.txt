@@ -1,0 +1,115 @@
+Query: Instantiating an inner class.
+
+
+Questions:
+1: What type of class would you like to instantiate (static, top-level, local, anonymous)?
+2: Is this an inner class nested inside another class, or is the inner class a top-level class?
+3: What type of inner class are you trying to instantiate?
+please select question:
+What type of class would you like to instantiate (static, top-level, local, anonymous)?
+
+Answer:
+Static, top-level, or local.
+
+Recommend APIs:
+1. java.lang.Class.isLocalClass(); 
+2. java.lang.Class.isAnonymousClass(); 
+3. java.lang.Class.isSynthetic(); 
+4. java.lang.Class.forName(); 
+5. java.lang.Class.getModifiers();
+6. java.lang.ClassLoader.defineClass();
+7. java.lang.Class.isMemberClass();
+8. java.lang.Class.isTopLevelClass();
+9. java.lang.Class.isStatic();
+
+Revised Query: You can instantiate a static, top-level, or local inner class.
+
+
+Questions:
+1: Which type of class are you attempting to instantiate: static, top-level, or local?
+2: Is the class you are trying to instantiate a static, top-level, or local inner class?
+3: Is the inner class static, top-level, or a local class?
+please select question:
+Which type of class are you attempting to instantiate: static, top-level, or local?
+
+Answer:
+Inner
+
+Recommend APIs:
+1. java.lang.Class.newInstance() -- (new)
+2. java.lang.ClassLoader.defineClass() -- (new)
+3. java.lang.Class.getDeclaredConstructors() -- (new)
+4. java.lang.Class.getDeclaredMethods() -- (new)
+5. java.lang.Class.getDeclaredConstructor() -- (new)
+6. java.lang.reflect.Constructor.newInstance() -- (new)
+
+Revised Query: The class to be instantiated is an inner class.
+
+
+Questions:
+1: Is the inner class static, top-level, or local?
+2: Is the inner class a static, top-level, or local inner class?
+3: Is the inner class declared as a static, top-level, or local inner class?
+please select question:
+Is the inner class static, top-level, or local?
+
+Answer:
+Inner class
+
+Recommend APIs:
+1. java.lang.Class.newInstance()
+2. java.lang.Class.getClasses() -- (new)
+3. java.lang.Class.isAnonymousClass() -- (new)
+4. java.lang.Class.getDeclaredClasses() -- (new)
+5. java.lang.Class.getDeclaringClass() -- (new)
+6. java.lang.Class.getEnclosingClass() -- (new)
+7. java.lang.Class.getLocalClasses() -- (new)
+
+Revised Query: The inner class can be instantiated as either static, top-level, or local.
+
+
+Questions:
+1: Is the inner class static, top-level, or local?
+2: Is the inner class a static, top-level, or local inner class?
+3: Is this inner class defined within an outer class or as an independent class?
+please select question:
+Is the inner class static, top-level, or local?
+
+Answer:
+Inner class
+
+Recommend APIs:
+1. java.lang.Class.isAnonymousClass()
+2. java.lang.Class.isLocalClass() -- (new)
+3. java.lang.Class.isMemberClass() -- (new)
+4. java.lang.Class.isSynthetic() -- (new)
+5. java.lang.Class.isEnum() -- (new)
+6. java.lang.Class.isAnonymousClass()
+7. java.lang.reflect.Constructor.newInstance()
+8. java.lang.ClassLoader.defineClass()
+
+Revised Query: The inner class can be instantiated as either static, top-level, or local.
+
+
+Questions:
+1: Is the inner class static, top-level, or local?
+2: Which type of inner class are you looking to instantiate? Is it a static, top-level, or local inner class?
+3: Is the inner class a static, top-level, or local inner class?
+please select question:
+Is the inner class static, top-level, or local?
+
+Answer:
+Inner class
+
+Recommend APIs:
+1. java.lang.Class.isLocalClass()  -- (new)
+2. java.lang.Class.isMemberClass()  -- (new)
+3. java.lang.Class.isAnonymousClass()  -- (new)
+4. java.lang.Class.isSynthetic()  -- (new)
+5. java.lang.Class.getDeclaringClass()
+6. java.lang.Class.getEnclosingClass()  -- (new)
+7. java.lang.Class.getName() -- (new)
+
+Revised Query: The inner class can be instantiated as either static, top-level, or local.
+
+end==================================

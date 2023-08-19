@@ -1,0 +1,109 @@
+Query: adding comment in .properties files.
+
+
+Questions:
+1: What type of comment are you trying to add to the properties file?
+2: Are you looking for a way to add a single comment, or multiple comments, to a .properties file?
+3: What language are you working in?
+please select question:
+What type of comment are you trying to add to the properties file?
+
+Answer:
+A plain text comment.
+
+Recommend APIs:
+1. java.util.Properties.setProperty(String key, String value)
+2. java.io.FileOutputStream.write(byte[] b)
+3. java.io.BufferedOutputStream.write(int b)
+4. java.io.OutputStreamWriter.write(int c)
+5. java.io.Writer.append(CharSequence csq)
+
+Revised Query: Comments can be added to a properties file by using the '#' symbol at the beginning of the line.
+
+
+Questions:
+1: Would you like to add the comment to the beginning of the file or the end of the file?
+2: What type of comment do you need to add (i.e. a single-line comment or a multi-line comment)?
+3: Would you like your comment to be multi-line or single line?
+please select question:
+Would you like to add the comment to the beginning of the file or the end of the file?
+
+Answer:
+Beginning of the file.
+
+Recommend APIs:
+1. java.io.BufferedWriter.write(String) -- (new)
+2. java.io.BufferedWriter.newLine() -- (new)
+3. java.io.FileWriter.write(String) -- (new)
+4. java.io.FileWriter.append(String) -- (new)
+
+Revised Query: To add a plain text comment to the beginning of a .properties file, use the '#' character at the start of the line.
+
+
+Questions:
+1: Would you like the comment to be added at the beginning of the file or at the end of the file?
+2: Where do you need to add the comment? At the beginning of the file or elsewhere?
+3: Is the comment meant to be visible to the user or is it meant to be used for internal records?
+please select question:
+Would you like the comment to be added at the beginning of the file or at the end of the file?
+
+Answer:
+At the beginning of the file.
+
+Recommend APIs:
+1. java.io.BufferedWriter.write(String str) -- (new)
+2. java.io.OutputStreamWriter.write(String str) -- (new)
+3. java.io.FileOutputStream.write(String str) -- (new)
+4. java.io.FileWriter.write(String str) -- (new)
+5. java.io.BufferedOutputStream.write(String str) -- (new)
+
+Revised Query: The comment should be added to the beginning of the properties file as plain text.
+
+
+Questions:
+1: Do you need a comment to be added at the beginning of the file, or throughout the .properties file?
+2: Where would you like the comment to be placed in the .properties file specifically? At the beginning, end, or some other specific location?
+3: Do you need to add the comment at the beginning of the .properties file, or anywhere else in the file?
+please select question:
+Do you need a comment to be added at the beginning of the file, or throughout the .properties file?
+
+Answer:
+At the beginning of the file.
+
+Recommend APIs:
+# Recommended API methods in Java API documentation -- (new)
+1. java.util.stream.Stream.filter  -- (new)
+2. java.util.Collection.removeIf  -- (new)
+3. java.util.Collection.contains  -- (new)
+4. java.lang.String.contains  -- (new)
+5. java.util.Collections.sort  -- (new)
+6. java.util.Iterator.remove  -- (new)
+7. java.lang.String.startsWith  -- (new)
+8. java.util.List.add -- (new)
+
+Revised Query: To add a plain text comment to the beginning of a .properties file, the comment should be added at the beginning of the file.
+
+
+Questions:
+1: What is the exact syntax for adding a comment at the beginning of the .properties file?
+2: Would you like the comment to appear at the beginning of the .properties file only or at the beginning of each section in the .properties file?
+3: Where would you like to add the comment in the .properties file? At the beginning of the file, in the middle of the file, or at the end of the file?
+please select question:
+What is the exact syntax for adding a comment at the beginning of the .properties file?
+
+Answer:
+The exact syntax for adding a comment at the beginning of the .properties file is to start the line with a # or ! character.
+
+Recommend APIs:
+1. java.util.Properties.load(InputStream)  -- (new)
+2. java.io.InputStreamReader.read()  -- (new)
+3. java.io.BufferedWriter.write(String)  -- (new)
+4. java.io.InputStream.getChannel()  -- (new)
+5. java.nio.channels.FileChannel.position(long)  -- (new)
+6. java.nio.channels.FileChannel.write(ByteBuffer, long)  -- (new)
+7. java.io.OutputStreamWriter.write(String)  -- (new)
+8. java.io.InputStreamReader.read(char[], int, int) -- (new)
+
+Revised Query: A comment can be added to the beginning of a .properties file by starting the line with a # or ! character.
+
+end==================================

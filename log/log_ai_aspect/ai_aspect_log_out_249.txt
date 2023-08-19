@@ -1,0 +1,109 @@
+Query: Pick a number randomly from two numbers.
+
+
+Questions:
+1: What two numbers do you need to pick the number randomly from?
+2: Is the range of the two numbers known?
+3: What is the range of the two numbers?
+please select question:
+What two numbers do you need to pick the number randomly from?
+
+Answer:
+The two numbers you need to pick from will depend on the specific context of the query.
+
+Revised Query: A random number can be chosen from two given numbers.
+
+Recommend APIs:
+1. java.util.Random.nextInt(int bound)
+2. java.util.Random.ints(int, int)
+3. java.util.Random.nextLong(long bound)
+4. java.util.Random.nextDouble(double n)
+5. java.util.Random.longs(long, long)
+6. java.util.Random.doubles(double, double)
+
+
+Questions:
+1: What are the two numbers that you would like to pick from?
+2: What are the two numbers you need to pick from?
+3: What two numbers do you need to pick from?
+please select question:
+What are the two numbers that you would like to pick from?
+
+Answer:
+The two numbers that you would like to pick from are up to you.
+
+Revised Query: Randomly pick a number from two specified numbers.
+
+Recommend APIs:
+1. java.util.Random.nextInt(int bound)
+2. java.util.Random.nextInt(int origin, int bound)  -- (new)
+3. java.lang.Math.random() -- (new)
+4. java.lang.Math.max(int a, int b)  -- (new)
+5. java.lang.Math.min(int a, int b) -- (new)
+
+
+Questions:
+1: What are the two numbers that you would like to pick a number from?
+2: What data type do you need the randomly-selected number to be?
+3: What two numbers should I pick a number randomly from?
+please select question:
+What are the two numbers that you would like to pick a number from?
+
+Answer:
+The two numbers would depend on the type of data specified in the query.
+
+Revised Query: A random number will be chosen from the two numbers specified in the query.
+
+Recommend APIs:
+1) java.util.Random.ints(int, int)  -- (new)
+2) java.util.Random.nextInt(int)  -- (new)
+3) java.util.Random.nextInt(int, int)  -- (new)
+4) java.util.concurrent.ThreadLocalRandom.current().nextInt(int, int)  -- (new)
+5) java.util.OptionalDouble.orElseGet(DoubleSupplier)  -- (new)
+6) java.util.Random.ints(int, int, IntUnaryOperator)  -- (new)
+7) java.util.stream.IntStream.range(int, int)  -- (new)
+8) java.util.stream.IntStream.generate(IntSupplier)  -- (new)
+9) java.util.stream.IntStream.generate(IntUnaryOperator).limit(int)  -- (new)
+10) java.util.Random.ints().limit(int) -- (new)
+
+
+Questions:
+1: What kind of data would you like to pick the two numbers from?
+2: What type of data (numerical, string, Boolean, etc.) do you need to pick a number randomly from?
+3: What type of data do you need the two numbers to be picked from?
+please select question:
+What kind of data would you like to pick the two numbers from?
+
+Answer:
+Random data.
+
+Revised Query: Randomly pick a number from two specified numbers.
+
+Recommend APIs:
+1. java.util.Random.nextInt(int bound)
+2. java.util.Random.nextInt(int origin, int bound) -- (new)
+3. java.util.Random.ints(int origin, int bound) -- (new)
+4. java.util.Random.ints(long streamSize, int origin, int bound) -- (new)
+5. java.util.Random.nextDouble(double min, double max) -- (new)
+
+
+Questions:
+1: Are the two numbers integers or real numbers?
+2: What is the range of numbers that you would like to pick from randomly?
+3: What type of data and what range of numbers do you need to pick your random number from?
+please select question:
+Are the two numbers integers or real numbers?
+
+Answer:
+It depends on the two numbers given.
+
+Revised Query: Pick a random number from the two numbers provided.
+
+Recommend APIs:
+1. java.util.Random.nextInt(int bound)                                               -- (new)
+2. java.util.Random.nextInt(int origin, int bound)                                     -- (new)
+3. java.util.Random.ints(int origin, int bound)  -- (new)
+4. java.util.Random.longs(long origin, long bound) -- (new)
+5. java.util.Random.nextLong(long bound)
+6. java.util.Random.nextLong(long origin, long bound) -- (new)
+end==================================

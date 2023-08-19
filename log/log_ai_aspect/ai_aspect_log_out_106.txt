@@ -1,0 +1,111 @@
+Query: Quickly square a double.
+
+
+Questions:
+1: Which specific numeric representation of double (e.g. IEEE 754 binary format) is expected in the given query?
+2: What is the range of the double value to be squared?
+3: What is the range of the double value?
+please select question:
+Which specific numeric representation of double (e.g. IEEE 754 binary format) is expected in the given query?
+
+Answer:
+IEEE 754 binary format
+
+Revised Query: Quickly square a double in IEEE 754 binary format.
+
+Recommend APIs:
+1. java.lang.Double.doubleToRawLongBits(double) 
+2. java.math.BigDecimal.valueOf(double) 
+3. java.math.BigDecimal.multiply(BigDecimal) 
+4. java.lang.Math.pow(double, double) 
+5. java.lang.Double.longBitsToDouble(long)
+
+
+Questions:
+1: Is the double that needs to be squared in IEEE 754 binary format?
+2: Is it necessary to perform the squaring operation in IEEE 754 binary format?
+3: Is the double value a single variable or part of an array/collection of doubles?
+please select question:
+Is the double that needs to be squared in IEEE 754 binary format?
+
+Answer:
+No.
+
+Revised Query: The query should be expanded to: "Please quickly square a double in IEEE 754 binary format."
+
+Recommend APIs:
+1. java.lang.Integer.doubleToLongBits(double) -- (new)
+2. java.lang.Integer.toString(long, int) -- (new)
+3. java.lang.Long.valueOf(long) -- (new)
+4. java.lang.Long.doubleValue(long) -- (new)
+5. java.lang.Math.pow(double, double) -- (new)
+
+
+Questions:
+1: Does the double need to be squared using the IEEE 754 binary format?
+2: Are you looking for a method to square a double in IEEE 754 binary format?
+3: Is the double in IEEE 754 binary formatNo. that needs to be squared?
+please select question:
+Does the double need to be squared using the IEEE 754 binary format?
+
+Answer:
+No.
+
+Revised Query: The double needs to be squared quickly without using the IEEE 754 binary format.
+
+Recommend APIs:
+1. java.lang.Math.pow(double, double)
+ 2. java.lang.Math.multiplyExact(long, long) -- (new)
+ 3. java.lang.Math.multiplyExact(int, int) -- (new)
+ 4. java.lang.Math.scalb(double, int) -- (new)
+ 5. java.lang.Math.hypot(double, double) -- (new)
+
+
+Questions:
+1: What IEEE standard do you need to use to square the double?
+2: Is the double in the IEEE 754 binary format?
+3: What IEEE 754 binary format is the double stored in?
+please select question:
+What IEEE standard do you need to use to square the double?
+
+Answer:
+IEEE 802.11 (Wi-Fi) standard.
+
+Revised Query: The double needs to be squared using the IEEE 802.11 (Wi-Fi) standard.
+
+Recommend APIs:
+1. java.lang.Math.pow(double a, double b)  -- (new)
+2. java.lang.Math.ceil(double a)  -- (new)
+3. java.lang.Math.floor(double a)  -- (new)
+4. java.math.BigInteger.pow(int exponent) -- (new)
+5. java.net.NetworkInterface.getByName(String wifiName)  -- (new)
+6. java.net.NetworkInterface.supportsMulticast()  -- (new)
+7. java.net.NetworkInterface.getInterfaceAddresses()  -- (new)
+8. javax.net.ssl.SSLSocket.bind(java.net.InetAddress host, int port) -- (new)
+9. javax.net.ssl.SSLSocketFactory.createSocket(java.net.InetAddress address, int port) -- (new)
+10. javax.net.ssl.SSLSocketFactory.getSupportedCipherSuites() -- (new)
+
+
+Questions:
+1: Which IEEE standard should the double be squared according to?
+2: What IEEE standard is needed to quickly square a double in IEEE 754 binary format?
+3: Does the query require the IEEE 754 binary format to be used for squaring the double?
+please select question:
+Which IEEE standard should the double be squared according to?
+
+Answer:
+IEEE 802.11n.
+
+Revised Query: The double should be squared according to the IEEE 802.11n standard.
+
+Recommend APIs:
+1. java.lang.Math.pow(double, double)
+2. java.util.Arrays.copyOf(double[], int) -- (new)
+3. java.lang.Double.parseDouble(String) -- (new)
+4. java.lang.Double.doubleToLongBits(double) -- (new)
+5. java.lang.Double.doubleToRawLongBits(double) -- (new)
+6. java.lang.Double.longBitsToDouble(long)
+7. java.lang.Double.valueOf(String) -- (new)
+8. java.lang.Double.compare(double, double) -- (new)
+9. java.lang.String.valueOf(double) -- (new)
+end==================================

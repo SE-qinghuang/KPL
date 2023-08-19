@@ -1,0 +1,106 @@
+Query: Implement binary search in objects.
+
+
+Questions:
+1: Is the object already sorted?
+2: What type of objects are you looking to use for the binary search?
+3: What type of objects are you hoping to use in your binary search?
+please select question:
+Is the object already sorted?
+
+Answer:
+Yes or No
+
+Recommend APIs:
+1. java.util.Arrays.binarySearch
+2. java.util.Collections.binarySearch
+3. java.util.TreeMap.containsKey
+4. java.util.TreeMap.get
+5. java.util.TreeMap.floorEntry
+6. java.util.TreeMap.ceilingEntry
+
+Revised Query: The object must be sorted in order to implement binary search.
+
+
+Questions:
+1: Do you require an indexed array for the binary search?
+2: Would you like to implement a recursive or iterative binary search?
+3: Do you need to store the objects in sorted order for the binary search implementation?
+please select question:
+Do you require an indexed array for the binary search?
+
+Answer:
+Yes, an indexed array is required for the binary search.
+
+Recommend APIs:
+1. java.util.Arrays.binarySearch() -- (new)
+2. java.util.Collections.binarySearch() -- (new)
+3. java.util.Collections.sort() -- (new)
+4. java.util.Arrays.sort() -- (new)
+
+Revised Query: A binary search can be implemented in an object by sorting the object's indexed array and then using the binary search algorithm to search for the desired element.
+
+
+Questions:
+1: Is there an indexed array available to be used for the binary search?
+2: Is an indexed array of objects available for the binary search?
+3: Does the array contain pre-sorted data or does the binary search have to be used to sort the array?
+please select question:
+Is there an indexed array available to be used for the binary search?
+
+Answer:
+Yes, an indexed array can be used for the binary search.
+
+Recommend APIs:
+1. java.util.Arrays.binarySearch()
+2. java.lang.Comparable.compareTo() -- (new)
+3. java.lang.Integer.compare() -- (new)
+4. java.util.List.indexOf() -- (new)
+5. java.util.List.get() -- (new)
+6. java.util.List.toArray() -- (new)
+
+Revised Query: The object must be sorted and an indexed array is required to implement a binary search, and an indexed array is available to be used.
+
+
+Questions:
+1: Do you need the binary search to be implemented in a specific object type?
+2: Has the array been indexed already, or do you need help with that?
+3: Which type of objects do you want to use for the array?
+please select question:
+Do you need the binary search to be implemented in a specific object type?
+
+Answer:
+Yes, please specify the object type.
+
+Recommend APIs:
+1.java.util.Arrays.binarySearch(Object[] a, Object key) -- (new)
+2.java.util.Arrays.sort(Object[] a) -- (new)
+3.java.util.Collections.binarySearch(List list, Object key) -- (new)
+4.java.util.Collections.sort(List list) -- (new)
+5.java.util.List.indexOf(Object o) -- (new)
+6.java.util.List.get(int index) -- (new)
+
+Revised Query: The binary search needs to be implemented in a specific object type, and an indexed array is required for the binary search, assuming the object is already sorted.
+
+
+Questions:
+1: What type of object are you wanting to run a binary search on?
+2: What is the type of the object that the Binary Search needs to be implemented on?
+3: What type of objects are you looking to binary search?
+please select question:
+What type of object are you wanting to run a binary search on?
+
+Answer:
+Any type of object.
+
+Recommend APIs:
+1. java.util.Arrays.binarySearch()  -- (new)
+2. java.util.Collections.binarySearch()
+3. java.util.List.indexOf()
+4. java.util.List.search() -- (new)
+5. java.util.ArrayList.binarySearch()  -- (new)
+6. java.util.TreeMap.binarySearch() -- (new)
+
+Revised Query: The binary search can be implemented on any type of object, provided that an indexed array is available and the object is already sorted.
+
+end==================================

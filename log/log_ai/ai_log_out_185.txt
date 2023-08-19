@@ -1,0 +1,107 @@
+Query: Get words around a position in a string.
+
+
+Questions:
+1: What is the size of the word context you would like to retrieve (i.e. how many words on either side of the string position)?
+2: Do you need to get the words before and/or after the specified position, or just the word at the specified position?
+3: Are you looking for the characters or words surrounding a given position in the string?
+please select question:
+What is the size of the word context you would like to retrieve (i.e. how many words on either side of the string position)?
+
+Answer:
+The size of the word context you would like to retrieve is up to you.
+
+Recommend APIs:
+1. java.lang.String.substring(int,int)
+2. java.lang.String.length()
+3. java.lang.String.indexOf(String, int)
+4. java.lang.String.lastIndexOf(String, int)
+5. java.lang.String.charAt(int)
+6. java.lang.String.isEmpty()
+
+Revised Query: The query is to get the words around a position in a string, with the size of the word context being up to the user.
+
+
+Questions:
+1: What size of word context would you like to retrieve around the position in the string?
+2: How much context do you need to retrieve?
+3: What is the size of the word context you would like to retrieve?
+please select question:
+What size of word context would you like to retrieve around the position in the string?
+
+Answer:
+The size of the word context that you would like to retrieve around the position in the string.
+
+Recommend APIs:
+1. java.lang.String.substring(int beginIndex, int endIndex)  -- (new)
+2. java.lang.String.substring(int beginIndex) -- (new)
+3. java.lang.String.charAt(int index)   -- (new)
+4. java.lang.StringBuilder.append(String str)  -- (new)
+5. java.lang.StringBuilder.insert(int offset, String str)  -- (new)
+6. java.lang.StringBuilder.reverse() -- (new)
+
+Revised Query: The query is to get words around a position in a string, with the size of the word context being up to the user.
+
+
+Questions:
+1: How many words would you like to retrieve around the position in the string?
+2: What is the size of the word context that you would like to retrieve around the position in the string?
+3: How many words ahead and behind the given position in the string would you like to retrieve?
+please select question:
+How many words would you like to retrieve around the position in the string?
+
+Answer:
+One.
+
+Recommend APIs:
+1. String.subString(int startIndex, int endIndex) -- (new)
+2. String.charAt(int index) -- (new)
+3. String.substring(int beginIndex, int endIndex) -- (new)
+4. String.indexOf(String str, int fromIndex) -- (new)
+5. String.codePointAt(int index) -- (new)
+6. String.length() -- (new)
+
+Revised Query: The query is to get one word on either side of the position in the string.
+
+
+Questions:
+1: How many words around the specified position would you like to retrieve?
+2: What is the size of the word context you would like to retrieve?
+3: What size word context would you like to retrieve around the position in the string?
+please select question:
+How many words around the specified position would you like to retrieve?
+
+Answer:
+One word.
+
+Recommend APIs:
+1. java.lang.String.charAt(int index) -- (new)
+2. java.lang.String.substring(int beginIndex, int endIndex) -- (new)
+3. java.lang.String.indexOf(String str) -- (new)
+4. java.lang.String.lastIndexOf(String str) -- (new)
+5. java.lang.String.startsWith(String prefix) -- (new)
+6. java.lang.String.endsWith(String suffix) -- (new)
+
+Revised Query: The query is to retrieve one word around the specified position in the string.
+
+
+Questions:
+1: How many words do you want to retrieve in the context around the position in the string?
+2: How many words around the position in the string would you like to retrieve?
+3: How many words would you like to retrieve around the position in the string?
+please select question:
+How many words do you want to retrieve in the context around the position in the string?
+
+Answer:
+The number of words you want to retrieve in the context around the position in the string will depend on your specific needs.
+
+Recommend APIs:
+1. java.lang.String.substring (int beginIndex, int endIndex) -- (new)
+2. java.lang.String.charAt(int index)
+3. java.lang.String.substring (int beginIndex) -- (new)
+4. java.lang.String.indexOf(int ch) -- (new)
+5. java.lang.String.lastIndexOf(int ch) -- (new)
+
+Revised Query: The query is to get one word around a specified position in a string.
+
+end==================================

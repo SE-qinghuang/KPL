@@ -1,0 +1,109 @@
+Query: Removing range (tail) from a List.
+
+
+Questions:
+1: What type of list are you trying to remove a range from? Is it an ArrayList, LinkedList, Vector, etc.?
+2: What type of List do you want to remove the range from (e.g. ArrayList, LinkedList, Vector, etc.)?
+3: What type of list are you removing range from? ArrayList, LinkedList, Vector, etc.?
+please select question:
+What type of list are you trying to remove a range from? Is it an ArrayList, LinkedList, Vector, etc.?
+
+Answer:
+It depends on the type of list you are using.
+
+Recommend APIs:
+1. java.util.List.remove(int index);
+2. java.util.List.removeRange(int fromIndex, int toIndex);
+3. java.util.List.removeAll(Collection c);
+4. java.util.List.removeIf(Predicate filter);
+
+Revised Query: The range can be removed from a List by using the appropriate removeRange method for the specific type of List being used.
+
+
+Questions:
+1: What type of list are you using?
+2: Which type of list are you using? ArrayList, LinkedList, or another type?
+3: What type of list are you using (ArrayList, LinkedList, Vector, etc.)?
+please select question:
+What type of list are you using?
+
+Answer:
+Linked list
+
+Recommend APIs:
+1. java.util.LinkedList.removeFirstOccurrence(Object o) -- (new)
+2. java.util.LinkedList.removeLastOccurrence(Object o)  -- (new)
+3. java.util.LinkedList.removeRange(int fromIndex, int toIndex) -- (new)
+4. java.util.LinkedList.removeAll(Collection<?> c) -- (new)
+5. java.util.LinkedList.removeIf(Predicate<? super E> filter) -- (new)
+
+Revised Query: To remove a range from a LinkedList, use the removeRange() method.
+
+
+Questions:
+1: What type of linked list are you using? Is it a doubly-linked list, a singly-linked list, or a circular doubly-linked list?
+2: Do you need to remove the last node from a LinkedList or remove items from the end of the list within a certain range?
+3: Are you using a doubly-linked or a singly-linked list to remove the range from the list?
+please select question:
+What type of linked list are you using? Is it a doubly-linked list, a singly-linked list, or a circular doubly-linked list?
+
+Answer:
+It depends on the implementation.
+
+Recommend APIs:
+1. java.util.LinkedList.removeRange  -- (new)
+2. java.util.LinkedList.removeFirst  -- (new)
+3. java.util.LinkedList.removeLast  -- (new)
+4. java.util.LinkedList.remove(Object o)  -- (new)
+5. java.util.List.sublist(int fromIndex, int toIndex)  -- (new)
+6. java.util.List.removeAll(Collection<?> c) -- (new)
+
+Revised Query: The range (tail) can be removed from a Linked List by using the appropriate implementation for the type of Linked List being used.
+
+
+Questions:
+1: What type of list are you using, a Linked list or something else?
+2: What type of list are you using?
+3: What type of list are you using (ArrayList, LinkedList, etc.)?
+please select question:
+What type of list are you using, a Linked list or something else?
+
+Answer:
+Linked list
+
+Recommend APIs:
+1. java.util.LinkedList.removeRange(int fromIndex, int toIndex)
+2. java.util.LinkedList.removeFirst() -- (new)
+3. java.util.LinkedList.spi.ListIterator.previous() -- (new)
+4. java.util.Collections.unmodifiableList(List<? extends T> list) -- (new)
+5. java.util.ListIterator.remove() -- (new)
+6. java.util.LinkedList.iterator() -- (new)
+7. java.util.LinkedList.pop() -- (new)
+8. java.util.LinkedList.remove(Object o) -- (new)
+9. java.util.LinkedList.remove First Occurrence(Object o) -- (new)
+10. java.util.LinkedList.remove Last Occurrence(Object o) -- (new)
+
+Revised Query: The range (tail) can be removed from a Linked List by using the appropriate implementation.
+
+
+Questions:
+1: What type of list are you using?
+2: What type of list are you using to remove elements from (i.e. array list, linked list, etc.)?
+3: What type of list are you using (ArrayList, LinkedList, etc.)?
+please select question:
+What type of list are you using?
+
+Answer:
+Linked list
+
+Recommend APIs:
+1. java.util.LinkedList.removeRange(int fromIndex, int toIndex)  -- (new)
+2. java.util.LinkedList.pollLast()  -- (new)
+3. java.util.LinkedList.removeLast()  -- (new)
+4. java.util.LinkedList.removeFirst()  -- (new)
+5. java.util.LinkedList.pollFirst()  -- (new)
+6. java.util.LinkedList.clear() -- (new)
+
+Revised Query: The query can be expanded to: Removing a range (tail) from a Linked List.
+
+end==================================

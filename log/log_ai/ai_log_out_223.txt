@@ -1,0 +1,114 @@
+Query: Convert a byte or int to bitset.
+
+
+Questions:
+1: Do you need to convert multiple integers or bytes at once, or one integer or byte at a time?
+2: Do you need to convert only a single byte or int value, or a sequence of such values?
+3: Does the value you want to convert (byte or int) represent an index or a count?
+please select question:
+Do you need to convert multiple integers or bytes at once, or one integer or byte at a time?
+
+Answer:
+One integer or byte at a time.
+
+Recommend APIs:
+1. java.util.BitSet.set() 
+2. java.lang.Integer.bitCount() 
+3. java.lang.Integer.byteValue() 
+4. java.lang.Byte.bitCount() 
+5. java.lang.Byte.intValue() 
+6. java.lang.Integer.intValue() 
+7. java.lang.Long.bitCount() 
+8. java.lang.Integer.longValue()
+
+Revised Query: The query is to convert one integer or byte at a time to a bitset.
+
+
+Questions:
+1: Which would you like to convert to a bitset: an integer or a byte?
+2: Is the integer or byte to be converted fixed or dynamic?
+3: Do you need to convert more than one integer or byte at a time?
+please select question:
+Which would you like to convert to a bitset: an integer or a byte?
+
+Answer:
+An integer or a byte?
+
+Recommend APIs:
+1. java.util.BitSet.set(int index) -- (new)
+2. java.util.BitSet.get(int index) -- (new)
+3. java.lang.Byte.toUnsignedInt(byte b) -- (new)
+4. java.lang.Integer.toBinaryString(int i) -- (new)
+
+Revised Query: The query is to convert one integer or byte at a time to a bitset.
+
+
+Questions:
+1: Are you trying to convert a single byte or int to a bitSet?
+2: Do you want to convert one integer or one byte at a time?
+3: Is the integer or byte an unsigned or signed value?
+please select question:
+Are you trying to convert a single byte or int to a bitSet?
+
+Answer:
+Yes.
+
+Recommend APIs:
+1. java.lang.Integer.toBinaryString(int i); -- (new)
+2. java.lang.String.getBytes(String charsetName); -- (new)
+3. java.util.BitSet.valueOf(byte[] bytes); -- (new)
+4. java.util.BitSet.valueOf(long[] longs); -- (new)
+5. java.util.BitSet.valueOf(java.nio.ByteBuffer buffer); -- (new)
+
+Revised Query: The query is to convert a single byte or int to a bitset.
+
+
+Questions:
+1: Is the input data for conversion an integer or a byte?
+2: Is the integer or byte a positive, negative, or a mixture of values?
+3: Does the byte or int you want to convert contain 8 or fewer bits?
+please select question:
+Is the input data for conversion an integer or a byte?
+
+Answer:
+Integer or byte.
+
+Recommend APIs:
+1. java.lang.Integer.toBinaryString(int i)
+2. java.lang.Integer.bitCount(int i) -- (new)
+3. java.nio.ByteBuffer.wrap(byte[] array).getLong() -- (new)
+4. java.util.BitSet.valueOf(byte[] bytes) -- (new)
+5. java.util.BitSet.valueOf(long[] longs) -- (new)
+6. java.lang.Long.toBinaryString(long l) -- (new)
+7. java.util.BitSet.set(int bitIndex) -- (new)
+
+Revised Query: The query is to convert a single integer or byte to a bitset.
+
+
+Questions:
+1: Is the given integer or byte a 32 bit or 64 bit value?
+2: Are you looking to convert a single integer or byte to a bitset, or multiple?
+3: Is the integer or byte signed or unsigned?
+please select question:
+Is the given integer or byte a 32 bit or 64 bit value?
+
+Answer:
+It depends on the integer or byte value given.
+
+Recommend APIs:
+1. java.util.BitSet.valueOf(long[] longs)  -- (new)
+2. java.util.BitSet.valueOf(java.nio.LongBuffer lb)  -- (new)
+3. java.util.BitSet.valueOf(byte[] bytes)  -- (new)
+4. java.util.BitSet.valueOf(java.nio.ByteBuffer bb)  -- (new)
+5. java.util.BitSet.valueOf(java.lang.String s)  -- (new)
+6. java.util.BitSet.set(int bitIndex)  -- (new)
+7. java.util.BitSet.set(int fromIndex, int toIndex, boolean value)  -- (new)
+8. java.util.BitSet.clear(int bitIndex)  -- (new)
+9. java.util.BitSet.clear(int fromIndex, int toIndex)  -- (new)
+10. java.util.BitSet.get(int bitIndex)  -- (new)
+11. java.util.BitSet.length()  -- (new)
+12. java.util.BitSet.cardinality() -- (new)
+
+Revised Query: The query is to convert a single integer or byte to a bitset.
+
+end==================================

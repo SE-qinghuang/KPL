@@ -1,0 +1,106 @@
+Query: Instantiating an inner class.
+
+
+Questions:
+1: What kind of inner class do you need to instantiate?
+2: What is the specific purpose of the inner class that needs to be instantiated?
+3: What is the purpose of instantiating the inner class?
+please select question:
+What kind of inner class do you need to instantiate?
+
+Answer:
+A non-static inner class.
+
+Revised Query: A non-static inner class can be instantiated by creating an instance of the outer class and then creating an instance of the inner class within the outer class.
+
+Recommend APIs:
+1. java.lang.Object.newInstance(Object outerInstance); 
+2. java.lang.Class.getDeclaredClasses();
+3. java.lang.Class.newInstance();
+4. java.lang.ClassLoader.loadClass(String name);
+5. java.lang.Class.getDeclaredConstructors();
+
+
+Questions:
+1: Is the inner class part of a parent class or a standalone class?
+2: Is the inner class abstract or concrete?
+3: Is the non-static inner class a member class, local class, or anonymous class?
+please select question:
+Is the inner class part of a parent class or a standalone class?
+
+Answer:
+Standalone class.
+
+Revised Query: A non-static inner class can be instantiated from a standalone class.
+
+Recommend APIs:
+1. java.lang.Class.newInstance() -- (new)
+2. java.lang.Class.getDeclaredConstructors()  -- (new)
+3. java.lang.Class.getDeclaredMethods() -- (new)
+4. java.lang.reflect.Constructor.newInstance(Object... initargs) -- (new)
+5. java.lang.reflect.Method.invoke(Object obj, Object... args) -- (new)
+
+
+Questions:
+1: Is the inner class a generic type, or does it have specific parameterized types?
+2: What is the data type of the object that needs to be instantiated?
+3: What type of data type does the inner class need to instantiate?
+please select question:
+Is the inner class a generic type, or does it have specific parameterized types?
+
+Answer:
+The inner class has specific parameterized types.
+
+Revised Query: An instance of a non-static inner class with specific parameterized types can be instantiated from a standalone class.
+
+Recommend APIs:
+1. java.lang.Class.newInstance()
+2. java.lang.Class.getDeclaredConstructors() -- (new)
+3. java.lang.Class.getConstructors() -- (new)
+4. java.lang.reflect.Constructor.newInstance() -- (new)
+5. java.lang.reflect.Constructor.getGenericParameterTypes() -- (new)
+
+
+Questions:
+1: What is the scope of the inner class, and does it need to be accessed from any other class?
+2: Is the purpose of instantiating the inner class to create a dependency between the outer and inner classes?
+3: Is it necessary for the inner class to be instantiated from within the outer class, or can it be instantiated from anywhere?
+please select question:
+What is the scope of the inner class, and does it need to be accessed from any other class?
+
+Answer:
+The scope of the inner class depends on the context of the code, but it typically has access to the members of the outer class. It may need to be accessed from other classes depending on the purpose of the inner class.
+
+Revised Query: The inner class that needs to be instantiated is a non-static, standalone class with specific parameterized types, and its scope depends on the context of the code, potentially requiring access from other classes.
+
+Recommend APIs:
+1. java.lang.Class<T>.newInstance()  -- (new)
+2. java.lang.reflect.Constructor<T>.newInstance(Object... initargs)   -- (new)
+3. java.lang.Class.getDeclaredConstructors() 
+4. java.lang.Class.getConstructors()  -- (new)
+5. java.lang.Class.getDeclaredClasses()  -- (new)
+6. java.lang.Class.getClasses() -- (new)
+
+
+Questions:
+1: What is the scope of the inner class and how will it be accessed from other classes?
+2: Does the instantiation of the inner class require parameters to be specified and, if so, what are these parameters?
+3: What is the context of the code where the inner class needs to be instantiated?
+please select question:
+What is the scope of the inner class and how will it be accessed from other classes?
+
+Answer:
+The scope of the inner class will depend on the visibility of the class and it can be accessed from other classes using the outer class instance.
+
+Revised Query: To instantiate a non-static inner class with specific parameterized types, the scope of the inner class will depend on the visibility of the class and it can be accessed from other classes using the outer class instance.
+
+Recommend APIs:
+1. java.lang.Class.getConstructors() 
+2. java.lang.Class.newInstance()  -- (new)
+3. java.lang.reflect.Constructor.newInstance()  -- (new)
+4. java.lang.Class.getDeclaredConstructors()   -- (new)
+5. java.lang.Class.getDeclaringClass()  -- (new)
+6. java.lang.Class.getEnclosingClass()  -- (new)
+7. java.lang.Class.getEnclosingConstructor()  -- (new)
+8. java.lang.Class.getEnclosingMethod() -- (new)
+end==================================

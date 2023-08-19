@@ -1,0 +1,113 @@
+Query: Cast Object to Generic Type for returning.
+
+
+Questions:
+1: What is the generic data type to which the object needs to be cast?
+2: What type of object needs to be cast to a generic type?
+3: What type is the generic type that should be used for the returned object?
+please select question:
+What is the generic data type to which the object needs to be cast?
+
+Answer:
+The generic data type to which the object needs to be cast depends on the type of the object.
+
+Revised Query: The object needs to be cast to the appropriate generic data type depending on the type of the object.
+
+Recommend APIs:
+1. java.lang.Class.isInstance(Object obj) 
+2. java.lang.Object.getClass() 
+3. java.lang.Class.asSubclass(Class clazz) 
+4. java.lang.Class.cast(Object obj)
+5. java.lang.Class.isAssignableFrom(Class cls)
+
+
+Questions:
+1: What type of object needs to be cast to a generic type?
+2: What is the type of the object being cast?
+3: What is the type of the object that needs to be cast?
+please select question:
+What type of object needs to be cast to a generic type?
+
+Answer:
+Any object that needs to be returned from a method.
+
+Revised Query: The object needs to be cast to a generic data type in order to be returned from a method.
+
+Recommend APIs:
+1. java.lang.Object.getClass()   -- (new)
+2. java.lang.Class.cast()   -- (new)
+3. java.lang.Class.isInstance()   -- (new)
+4. java.lang.Object.equals()   -- (new)
+5. java.lang.Object.hashCode()   -- (new)
+6. java.lang.Class.getConstructor()   -- (new)
+7. java.lang.Class.getDeclaredConstructor()   -- (new)
+8. java.lang.Class.getDeclaredMethods()   -- (new)
+9. java.lang.Class.getMethods()   -- (new)
+10. java.lang.Class.getGenericSuperclass() -- (new)
+
+
+Questions:
+1: What is the type of the object that needs to be cast to the generic type?
+2: What is the type of the object that needs to be returned?
+3: What is the specific type of the object that needs to be returned?
+please select question:
+What is the type of the object that needs to be cast to the generic type?
+
+Answer:
+The type of the object that needs to be cast to the generic type is determined by the condition of the query.
+
+Revised Query: The object needs to be cast to a generic type according to the type of the object and the condition of the query.
+
+Recommend APIs:
+1. java.lang.Class.isAssignableFrom -- (new)
+2. java.lang.Class.asSubclass -- (new)
+3. java.lang.Object.getClass -- (new)
+4. java.lang.Class.cast -- (new)
+5. java.lang.Class.isInstance -- (new)
+6. java.lang.Class.isAssignableFrom -- (new)
+
+
+Questions:
+1: What is the condition of the query, and what type of object is being returned from the method?
+2: What is the type of the object that needs to be cast to the generic type?
+3: What type of object needs to be returned from the method?
+please select question:
+What is the condition of the query, and what type of object is being returned from the method?
+
+Answer:
+The condition of the query is to cast an object to a generic type, and the type of object being returned from the method is a generic type.
+
+Revised Query: The object needs to be cast to the generic type determined by the condition of the query in order to return it from the method.
+
+Recommend APIs:
+1. java.lang.Class.isAssignableFrom  -- (new)
+2. java.lang.Class.asSubclass  -- (new)
+3. java.lang.reflect.Method.invoke  -- (new)
+4. java.lang.Class.getGenericSuperclass  -- (new)
+5. java.lang.reflect.Type.getActualTypeArguments  -- (new)
+6. java.lang.Object.getClass  -- (new)
+7. java.lang.Class.getGenericInterfaces  -- (new)
+8. java.lang.Class.cast
+
+
+Questions:
+1: What is the type of the object that needs to be cast to the generic type, and what type of generic type is it being cast to?
+2: What is the condition of the query based on which the specific type of object needs to be cast to the generic type?
+3: What type of object needs to be cast to the generic type and what is the condition of the query?
+please select question:
+What is the type of the object that needs to be cast to the generic type, and what type of generic type is it being cast to?
+
+Answer:
+The type of the object that needs to be cast to the generic type is determined by the <status> of the query, and the type of generic type it is being cast to is also determined by the <status> of the query.
+
+Revised Query: The object needs to be cast to the appropriate generic type based on the status of the query.
+
+Recommend APIs:
+1. java.lang.Class.cast(Object obj); -- (new)
+2. java.util.stream.Stream.mapToInt(ToIntFunction<? super T> mapper); -- (new)
+3. java.util.stream.Stream.mapToLong(ToLongFunction<? super T> mapper); -- (new)
+4. java.util.stream.Stream.mapToDouble(ToDoubleFunction<? super T> mapper); -- (new)
+5. java.util.stream.Stream.map(Function<? super T,? extends R> mapper); -- (new)
+6. java.util.stream.Stream.collect(Collector<? super T,A,R> collector); -- (new)
+7. java.util.stream.Stream.forEach(Consumer<? super T> action); -- (new)
+end==================================

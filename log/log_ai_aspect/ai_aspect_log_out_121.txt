@@ -1,0 +1,106 @@
+Query: Instantiate a class object with constructor that accepts a string parameter.
+
+
+Questions:
+1: What is the name of the class being instantiated?
+2: What is the name of the class whose object needs to be instantiated?
+3: What specific class object are you trying to instantiate?
+please select question:
+What is the name of the class being instantiated?
+
+Answer:
+The name of the class being instantiated is determined by the constructor parameter.
+
+Revised Query: A class object can be instantiated with a constructor that accepts a string parameter.
+
+Recommend APIs:
+1. java.lang.String.substring(int beginIndex, int endIndex)
+2. java.lang.Class.forName(String className)
+3. java.lang.Class.newInstance()
+4. java.lang.String.length()
+5. java.lang.StringConstructor.String(String s)
+
+
+Questions:
+1: What is the data type of the constructor parameter string?
+2: What Java data type should be used for the constructor parameter?
+3: What is the data type of the constructor parameter?
+please select question:
+What is the data type of the constructor parameter string?
+
+Answer:
+String
+
+Revised Query: A class object can be instantiated with a constructor that accepts a string parameter of type String.
+
+Recommend APIs:
+1.java.lang.String.valueOf(String str) -- (new)
+2.java.lang.String.substring(int beginIndex, int endIndex) -- (new)
+3.java.lang.String.contains(CharSequence s) -- (new)
+4.java.lang.String.length() -- (new)
+5.java.lang.String.equalsIgnoreCase(String anotherString) -- (new)
+6.java.lang.String.indexOf(String str) -- (new)
+7.java.lang.String.charAt(int index) -- (new)
+8.java.lang.String.toCharArray() -- (new)
+
+
+Questions:
+1: What is the class name of the object you need to instantiate?
+2: What is the exact name of the class that needs to be instantiated?
+3: What is the name of the class that needs to be instantiated?
+please select question:
+What is the class name of the object you need to instantiate?
+
+Answer:
+The class name of the object you need to instantiate is dependent on the string parameter.
+
+Revised Query: An object of a class can be instantiated with a constructor that accepts a string parameter of type String.
+
+Recommend APIs:
+1. java.lang.String.constructor(String) -- (new)
+  2. java.lang.Class.getConstructor(Class<?>...) -- (new)
+  3. java.lang.reflect.Constructor.newInstance(Object...) -- (new)
+  4. java.lang.Class.newInstance() -- (new)
+
+
+Questions:
+1: What is the name of the class you need to instantiate?
+2: What is the class name of the object you need to instantiate?
+3: What is the name of the class that needs to be instantiated?
+please select question:
+What is the name of the class you need to instantiate?
+
+Answer:
+The name of the class you need to instantiate depends on the specific application.
+
+Revised Query: The class object can be instantiated with a constructor that accepts a string parameter of type String.
+
+Recommend APIs:
+1. java.lang.String.constructor(String)  -- (new)
+2. java.lang.Class.newInstance()  -- (new)
+3. java.lang.Class.getDeclaredConstructors()  -- (new)
+4. java.lang.reflect.Constructor.newInstance(Object...)  -- (new)
+5. java.lang.reflect.Constructor.getParameters()  -- (new)
+6. java.lang.reflect.Parameter.getParameterizedType()  -- (new)
+7. java.lang.reflect.Constructor.getParameterTypes() -- (new)
+
+
+Questions:
+1: What is the name of the class that needs to be instantiated in this specific application?
+2: What is the name of the class you need to instantiate based on the string parameter in the context of the specific application?
+3: What is the class name of the object you need to instantiate?
+please select question:
+What is the name of the class that needs to be instantiated in this specific application?
+
+Answer:
+The name of the class that needs to be instantiated in this specific application is the class that accepts a string parameter.
+
+Revised Query: The class object can be instantiated with a constructor that accepts a string parameter of type String.
+
+Recommend APIs:
+1. java.lang.StringConstructor.String(String parameter) -- (new)
+2. java.lang.Class.newInstance()
+3. java.lang.Class.getDeclaredConstructor(Class[] parameterTypes) -- (new)
+4. java.lang.reflect.Constructor.newInstance(Object... arguments) -- (new)
+5. java.lang.Class.getConstructor(Class[] parameterTypes) -- (new)
+end==================================

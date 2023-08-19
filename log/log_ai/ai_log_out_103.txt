@@ -1,0 +1,105 @@
+Query: Java - Splitting String based on multiple delimiters.
+
+
+Questions:
+1: Are you looking for a way to split the string using multiple delimiters at once or you would like to split it multiple times using different delimiters each time?
+2: What is the desired output? Do you need to group the output in any particular way?
+3: What is the number of delimiters and what are the exact characters for each of them?
+please select question:
+Are you looking for a way to split the string using multiple delimiters at once or you would like to split it multiple times using different delimiters each time?
+
+Answer:
+Are you looking for a way to split the string using multiple delimiters at once?
+
+Recommend APIs:
+1. java.lang.String.split(regex, limit)
+2. java.util.StringTokenizer.hasMoreTokens()
+3. java.util.StringTokenizer.nextToken()
+4. java.util.StringTokenizer.countTokens()
+5. java.util.StringTokenizer(String str, String delim)
+6. java.util.StringJoiner.add(CharSequence)
+7. java.util.regex.Pattern.split(CharSequence, int)
+
+Revised Query: The query is looking for a way to split a string using multiple delimiters simultaneously.
+
+
+Questions:
+1: Do you want to split the string based on multiple characters or specific strings?
+2: Is there a need to split the string using multiple delimiters one after the other?
+3: Do you need a way to split the string using multiple delimiters in order, or are you looking to split it using multiple delimiters at once regardless of order?
+please select question:
+Do you want to split the string based on multiple characters or specific strings?
+
+Answer:
+Specific strings.
+
+Recommend APIs:
+1. java.lang.String.split(String regex, int limit) -- (new)
+2. java.util.StringTokenizer.StringTokenizer(String string, String delimiters) -- (new)
+3. java.util.regex.Pattern.split(CharSequence input, int limit) -- (new)
+4. java.util.StringJoiner.add(CharSequence element) -- (new)
+
+Revised Query: The query is looking for a way to split a string based on multiple specific strings at once.
+
+
+Questions:
+1: What specific delimiters do you need to split the string with?
+2: Are you splitting the string with specific strings or with a combination of predetermined delimiters?
+3: Are you looking for a way to split the string using multiple specific strings as delimiters?
+please select question:
+What specific delimiters do you need to split the string with?
+
+Answer:
+You need to specify the delimiters you want to split the string with.
+
+Recommend APIs:
+1. java.lang.String.split(String regex, int limit)  -- (new)
+2. java.util.StringTokenizer  -- (new)
+3. java.util.regex.Pattern.split(CharSequence input) -- (new)
+4. java.lang.String.split(String regex)  -- (new)
+5. java.util.regex.Matcher.appendReplacement(StringBuffer sb, String replacement) -- (new)
+
+Revised Query: The query is looking for a way to split a string using multiple specific delimiters at once.
+
+
+Questions:
+1: Can you please provide the specific delimiters you want to use to split the string?
+2: Are the delimiters specific strings or do you need to specify them?
+3: What are the specific delimiters you want to use to split your string?
+please select question:
+Can you please provide the specific delimiters you want to use to split the string?
+
+Answer:
+What specific delimiters do you want to use to split the string?
+
+Recommend APIs:
+1. java.lang.String.split(String regex, int limit)     -- (new)
+2. java.lang.StringTokenizer(String str, String delim)     -- (new)
+3. java.util.StringJoiner.add(CharSequence element)    -- (new)
+4. java.lang.String.replaceAll(String regex, String replacement)     -- (new)
+5. java.util.regex.Pattern.split(CharSequence input, int limit)
+
+Revised Query: The query is to split a string using multiple delimiters, which are specified by the user, at once.
+
+
+Questions:
+1: What specific delimiters do you want to use to split the string?
+2: What specific strings do you want to use to split the string?
+3: What are the specific delimiters that you want to use to split the string?
+please select question:
+What specific delimiters do you want to use to split the string?
+
+Answer:
+Please specify the delimiters you would like to use to split the string.
+
+Recommend APIs:
+1. java.lang.String.split(String regex, int limit) 
+2. java.lang.String.substring(int beginIndex, int endIndex)  -- (new)
+3.java.lang.String.indexOf(String str, int fromIndex)  -- (new)
+4. java.lang.String.indexOf(String str)  -- (new)
+5. java.lang.String.substring(int beginIndex)  -- (new)
+6. java.lang.String.trim() -- (new)
+
+Revised Query: The query is to split a string using multiple delimiters at once, based on specific strings provided by the user.
+
+end==================================

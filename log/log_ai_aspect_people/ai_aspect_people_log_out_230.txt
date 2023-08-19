@@ -1,0 +1,56 @@
+Query: Gracefully ending a thread that's waiting on a blocking queue.
+
+
+Questions:
+1: What language and platform do you need the thread to be ended on?
+2: What specific action is required for gracefully ending the thread?
+3: How would you like the thread to be terminated? Is the termination required to be graceful or can it be abrupt?
+please select question:
+What specific action is required for gracefully ending the thread?
+
+Help information:
+1. Interrupt the thread.
+2. Set a flag to indicate that the thread should end.
+3. Check the flag periodically in the thread's loop.
+4. Exit the thread's loop when the flag is set.
+5. Close any resources used by the thread.
+
+please input answer:
+Answer: Interrupt the thread.
+
+Revised Query: The thread must be interrupted in order to gracefully end it while it is waiting on a blocking queue.
+
+Recommend APIs:
+1. java.lang.Thread.interrupt()
+2. java.util.concurrent.BlockingQueue.take()
+3. java.util.concurrent.BlockingQueue.offer()
+4. java.util.concurrent.BlockingQueue.poll()
+5. java.util.concurrent.BlockingQueue.peek()
+6. java.util.concurrent.BlockingQueue.put()
+
+
+Questions:
+1: How can I make sure that the thread ends gracefully when I interrupt it?
+2: How can I guarantee that the thread is gracefully terminated even if the interrupt fails?
+3: What method should be used to interrupt the thread?
+please select question:
+What method should be used to interrupt the thread?
+
+Help information:
+1. Interrupt the thread using the interrupt() method.
+2. Use the shutdown() method to stop the thread from waiting on the blocking queue.
+3. Use the cancel() method to cancel the thread's execution.
+4. Use the join() method to wait for the thread to finish its execution.
+
+please input answer:
+Answer: Interrupt the thread using the interrupt() method.
+
+Revised Query: The thread should be interrupted using the interrupt() method in order to gracefully end it while it is waiting on a blocking queue.
+
+Recommend APIs:
+1. java.lang.Thread.interrupt()
+2. java.util.concurrent.BlockingQueue.offer()
+3. java.util.concurrent.BlockingQueue.poll()
+4. java.util.concurrent.BlockingQueue.take()
+5. java.util.concurrent.BlockingQueue.isEmpty() -- (new)
+end==================================

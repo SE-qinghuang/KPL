@@ -1,0 +1,103 @@
+Query: Implement binary search in objects.
+
+
+Questions:
+1: Are you looking to implement binary search on an array of objects or on a data structure for objects?
+2: Do you want to implement binary search in an array of objects, or do you want to implement binary search with objects as the search items?
+3: What type of objects are you looking to use binary search on?
+please select question:
+Are you looking to implement binary search on an array of objects or on a data structure for objects?
+
+Answer:
+Implement binary search on an array of objects.
+
+Revised Query: The query is to implement binary search on an array of objects.
+
+Recommend APIs:
+1. Arrays.binarySearch(Object[] a, Object key) 
+2. java.util.Collections.binarySearch(List list, Object key)
+3. java.util.Arrays.binarySearch(Object[] a, int fromIndex, int toIndex, Object key)
+4. java.util.Collections.binarySearch(List list, Object key, Comparator c)
+5. java.util.Collections.sort(List list)
+
+
+Questions:
+1: What data type are the objects in the array?
+2: What type of objects will be contained in the array?
+3: What is the data type of the objects in the array?
+please select question:
+What data type are the objects in the array?
+
+Answer:
+The data type of the objects in the array will depend on the type of the array.
+
+Revised Query: Implement binary search on an array of objects, where the data type of the objects in the array will depend on the type of the array.
+
+Recommend APIs:
+1. java.util.Arrays.binarySearch(Object[], Object) -- (new)
+2. java.util.List.contains(Object) -- (new)
+3. java.util.Collections.binarySearch(List, Object) -- (new)
+4. java.util.Comparator.compare(Object, Object) -- (new)
+5. java.util.Objects.equals(Object, Object) -- (new)
+
+
+Questions:
+1: What is the data type of the array of objects?
+2: What is the data type of the objects in the array that needs to be searched?
+3: What is the specific data type of the objects that need to be searched using binary search?
+please select question:
+What is the data type of the array of objects?
+
+Answer:
+The data type of the array of objects is an array of objects.
+
+Revised Query: The query is to implement binary search on an array of objects of any data type.
+
+Recommend APIs:
+1. java.util.Arrays.binarySearch(Object[] a, Object key) -- (new)
+2. java.lang.Comparable.compareTo(Object o) -- (new)
+3. java.util.function.Predicate.test(T t) -- (new)
+4. java.util.List.subList(int fromIndex, int toIndex) -- (new)
+5. java.lang.Object.equals(Object obj) -- (new)
+
+
+Questions:
+1: What is the data type of the objects in the array?
+2: What data type are the objects in the array?
+3: What is the type of the objects in the array that needs to be used for binary search implementation?
+please select question:
+What is the data type of the objects in the array?
+
+Answer:
+The data type of the objects in the array will depend on the specific implementation of the binary search.
+
+Revised Query: The query is to implement binary search on an array of objects, where the data type of the objects in the array will depend on the specific implementation of the binary search.
+
+Recommend APIs:
+1. java.util.Arrays.binarySearch(Object[] a, Object key)
+2. java.util.Collections.binarySearch(List<? extends Comparable<? super T>> list, T key) -- (new)
+3. java.util.Arrays.sort(Object[] a) -- (new)
+4. java.util.Comparator.compare(Object o1, Object o2) -- (new)
+5. java.util.List.get(int index) -- (new)
+6. java.util.List.size() -- (new)
+
+
+Questions:
+1: What type of objects will be stored in the array where the binary search will be implemented?
+2: What type of objects are in the array?
+3: What type of array are the objects being stored in, and what type of objects will the array contain?
+please select question:
+What type of objects will be stored in the array where the binary search will be implemented?
+
+Answer:
+Objects of any type.
+
+Revised Query: The query is to implement binary search on an array of objects of any type.
+
+Recommend APIs:
+1. java.util.Arrays.binarySearch(Object[] a, Object target) -- (new)
+2. java.util.Collections.binarySearch(List<? extends Comparable<? super T>> list, T key)
+3. java.util.ArrayList.binarySearch(Object[] a, Object target) -- (new)
+4. java.util.Arrays.sort(Object[] a)
+5. java.util.List.sort(Comparator<? super E> c) -- (new)
+end==================================

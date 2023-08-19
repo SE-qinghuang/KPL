@@ -1,0 +1,111 @@
+Query: Making Thread sleep for random amount of MS.
+
+
+Questions:
+1: Is the thread sleeping for a fixed or variable amount of milliseconds?
+2: What is the minimum number of milliseconds you want to specify for the thread to sleep?
+3: Are you looking for a way to make a start a thread and sleep for an specified amount of milliseconds or a random amount of milliseconds?
+please select question:
+Is the thread sleeping for a fixed or variable amount of milliseconds?
+
+Answer:
+Variable amount of milliseconds.
+
+Recommend APIs:
+1. java.lang.Thread.sleep(long millis)
+2. java.lang.Thread.getName()
+3. java.lang.Thread.interrupt()
+4. java.lang.Thread.join(long millis)
+5. java.lang.Thread.setName(String name)
+6. java.lang.Thread.isAlive()
+7. java.lang.Thread.getState()
+
+Revised Query: The thread is sleeping for a random amount of milliseconds.
+
+
+Questions:
+1: What is the range of milliseconds you would like the Thread to sleep for?
+2: How long should the Thread sleep for (in milliseconds)?
+3: How long would you like the thread to sleep for the random amount of milliseconds?
+please select question:
+What is the range of milliseconds you would like the Thread to sleep for?
+
+Answer:
+The range of milliseconds for the Thread to sleep for will depend on the specific requirements of the application.
+
+Recommend APIs:
+1. java.lang.Thread.sleep(long millis);  -- (new)
+2. java.lang.System.currentTimeMillis();  -- (new)
+3. java.lang.Object.wait(long millis); -- (new)
+4. java.util.concurrent.TimeUnit; -- (new)
+5. java.util.concurrent.ThreadLocalRandom.current(); -- (new)
+6. java.util.concurrent.ThreadPoolExecutor; -- (new)
+7. java.util.Timer.schedule(TimerTask task, long delay); -- (new)
+
+Revised Query: The Thread will be made to sleep for a variable amount of milliseconds, depending on the specific requirements of the application.
+
+
+Questions:
+1: What is the precise range of milliseconds for the Thread to sleep for?
+2: What range of milliseconds do you need the Thread to sleep for?
+3: What is the maximum and minimum range of milliseconds you would like the Thread to sleep for?
+please select question:
+What is the precise range of milliseconds for the Thread to sleep for?
+
+Answer:
+The precise range of milliseconds for the Thread to sleep for will depend on the random number generated.
+
+Recommend APIs:
+1.java.lang.Thread.sleep(long millis)  -- (new)
+2.java.util.Random.nextInt(int bound)  -- (new)
+3.java.util.Random.nextLong()  -- (new)
+4.java.util.Random.nextDouble()  -- (new)
+5.java.util.Random.nextBoolean()  -- (new)
+6.java.lang.Thread.yield()  -- (new)
+7.java.lang.Thread.join()  -- (new)
+8.java.lang.Thread.interrupt()  -- (new)
+9.java.lang.Thread.setDaemon(boolean on)  -- (new)
+10.java.lang.Thread.setName(String name) -- (new)
+
+Revised Query: The Thread will sleep for a variable amount of milliseconds, depending on the random number generated within the specified range.
+
+
+Questions:
+1: What range of milliseconds is required for the Thread to sleep for?
+2: What specific range (i.e. from X to Y milliseconds) of random milliseconds units should the Thread sleep for?
+3: What is the minimum and maximum range of milliseconds that the Thread needs to sleep for?
+please select question:
+What range of milliseconds is required for the Thread to sleep for?
+
+Answer:
+The range of milliseconds required for the Thread to sleep for will depend on the specific requirements of the application.
+
+Recommend APIs:
+1.java.util.Random.nextLong() -- (new)
+2.java.lang.Thread.sleep(long millis) -- (new)
+3.java.lang.Thread.interrupt() -- (new)
+4.java.lang.Thread.join() -- (new)
+5.java.lang.Thread.setName(String name) -- (new)
+6.java.lang.Thread.getName() -- (new)
+
+Revised Query: The Thread will sleep for a variable amount of milliseconds, depending on the random number generated and the specific requirements of the application.
+
+
+Questions:
+1: What range of values is needed for the random number generated in order to decide the amount of milliseconds for the Thread to sleep for?
+2: What is the specific range of milliseconds that you require for the Thread to sleep for?
+3: What is the required range of milliseconds for the Thread to sleep for?
+please select question:
+What range of values is needed for the random number generated in order to decide the amount of milliseconds for the Thread to sleep for?
+
+Answer:
+The range of values needed for the random number generated in order to decide the amount of milliseconds for the Thread to sleep for is 0 to the maximum value of the data type used to store the number.
+
+Recommend APIs:
+1. java.util.Random.nextLong() -- (new)
+2. java.lang.Thread.sleep(long millis)
+3. java.lang.Integer.MAX_VALUE() -- (new)
+
+Revised Query: The Thread will sleep for a random amount of milliseconds, with the range of values for the random number generated being 0 to the maximum value of the data type used to store the number.
+
+end==================================

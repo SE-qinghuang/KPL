@@ -1,0 +1,109 @@
+Query: Stable timer independent of system time.
+
+
+Questions:
+1: Do you require a high degree of accuracy (e.g. within milliseconds or microseconds) or are you looking for something more general (e.g. within minutes or hours)?
+2: Is the timer needed for real-time applications or just general use?
+3: Are you looking for a timer that runs independently of the system time?
+please select question:
+Do you require a high degree of accuracy (e.g. within milliseconds or microseconds) or are you looking for something more general (e.g. within minutes or hours)?
+
+Answer:
+Do you require a high degree of accuracy (e.g. within milliseconds or microseconds)?
+
+Recommend APIs:
+1. java.lang.System.nanoTime()
+2. java.time.Instant.now().toEpochMilli()
+3. java.time.Clock.systemUTC().instant()
+4. java.time.Clock.systemDefaultZone().instant()
+5. java.util.concurrent.TimeUnit.convert()
+6. java.lang.Thread.sleep()
+
+Revised Query: I am looking for a stable timer that is independent of system time and has a high degree of accuracy within milliseconds or microseconds.
+
+
+Questions:
+1: Do you need your timer to have a high degree of accuracy (e.g. within milliseconds or microseconds)?
+2: Do you need the timer to remain unaffected by external events and system time changes?
+3: Do you require the timer to be accurately independent of changes to the system time or does a certain degree of fluctuation in accuracy suffice?
+please select question:
+Do you need your timer to have a high degree of accuracy (e.g. within milliseconds or microseconds)?
+
+Answer:
+Yes.
+
+Recommend APIs:
+1. java.util.concurrent.ScheduledExecutorService.scheduleAtFixedRate(Runnable command, long initialDelay, long period, TimeUnit unit)  -- (new)
+2. java.util.concurrent.TimeUnit.convert(long sourceDuration, TimeUnit sourceUnit, TimeUnit targetUnit)  -- (new)
+3. java.util.concurrent.TimeUnit.convert(long sourceDuration, TimeUnit sourceUnit)  -- (new)
+4. java.lang.System.nanoTime()  -- (new)
+5. java.lang.System.currentTimeMillis() -- (new)
+
+Revised Query: I need a stable timer with a high degree of accuracy (e.g. within milliseconds or microseconds) that is independent of system time.
+
+
+Questions:
+1: Do you want the timer to be precise to the nanosecond, or is millisecond precision sufficient?
+2: Do you require millisecond or microsecond accuracy?
+3: What accuracy level do you need (in milliseconds or microseconds)?
+please select question:
+Do you want the timer to be precise to the nanosecond, or is millisecond precision sufficient?
+
+Answer:
+Do you want the timer to be precise to the nanosecond?
+
+Recommend APIs:
+1. java.lang.System.nanoTime()
+2. java.time.Clock.systemDefaultZone() -- (new)
+3. java.time.Clock.systemUTC() -- (new)
+4. java.lang.System.currentTimeMillis()
+5. java.lang.Thread.sleep()
+
+Revised Query: The query is for a stable timer independent of system time that has a high degree of accuracy within milliseconds or microseconds, and preferably to the nanosecond.
+
+
+Questions:
+1: Do you want the timer to be precise to the nanosecond?
+2: Do you need the timer to be precise to the nanosecond?
+3: Do you require the timer to be precise to the nanosecond?
+please select question:
+Do you want the timer to be precise to the nanosecond?
+
+Answer:
+No, precision to the nanosecond is not necessary.
+
+Recommend APIs:
+1. java.lang.System.nanoTime()
+2. java.time.Stopwatch -- (new)
+3. java.util.concurrent.ScheduledExecutorService -- (new)
+4. java.util.Timer -- (new)
+5. java.time.Clock -- (new)
+
+Revised Query: The query is for a stable timer that is independent of system time and has a high degree of accuracy within milliseconds or microseconds, but not necessarily to the nanosecond.
+
+
+Questions:
+1: Do you need the timer to be accurate to a fraction of a second (i.e. second level accuracy)?
+2: What accuracy level would you like to achieve (e.g. millisecond, microsecond or nanosecond)?
+3: What degree of accuracy do you need for the stable timer?
+please select question:
+Do you need the timer to be accurate to a fraction of a second (i.e. second level accuracy)?
+
+Answer:
+Yes.
+
+Recommend APIs:
+1. java.time.Instant.toEpochMilli() -- (new)
+2. java.time.ZoneId.getRules() -- (new)
+3. java.time.ZoneOffset.systemDefault() -- (new)
+4. java.time.Clock.systemUTC()
+5. java.time.LocalTime.now() -- (new)
+6. java.time.LocalDate.now() -- (new)
+7. java.time.LocalDateTime.now() -- (new)
+8. java.time.ZonedDateTime.now() -- (new)
+9. java.time.Duration.ofSeconds() -- (new)
+10. java.time.Instant.now() -- (new)
+
+Revised Query: The query is for a stable timer that is independent of system time and is accurate to a fraction of a second (i.e. second level accuracy).
+
+end==================================

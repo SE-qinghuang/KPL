@@ -1,0 +1,106 @@
+Query: Deep copy of an object array.
+
+
+Questions:
+1: Does the deep copy apply specifically to the data structure of the object array, or do you also need to replicate the values stored in the array?
+2: Does the deep copy refer to cloning or copying by value?
+3: Do you need a deep copy of the array values or the references of the objects in the array?
+please select question:
+Does the deep copy apply specifically to the data structure of the object array, or do you also need to replicate the values stored in the array?
+
+Answer:
+You also need to replicate the values stored in the array.
+
+Recommend APIs:
+1. java.lang.Object.clone()
+2. java.util.Arrays.copyOf()
+3. java.util.Arrays.copyOfRange()
+4. java.util.Objects.deepCopy() 
+5. java.util.stream.Stream.map()
+6. java.util.stream.Stream.collect()
+7. java.util.stream.Collectors.toList()
+8. java.util.ArrayList.addAll()
+
+Revised Query: A deep copy of an object array requires replicating both the data structure and the values stored in the array.
+
+
+Questions:
+1: Do you need to create a deep copy of the array that modifies the original references of objects within the array?
+2: Are the values in the object array primitives or references to other objects?
+3: Do you need the deep copy to keep the same references to the objects in the array?
+please select question:
+Do you need to create a deep copy of the array that modifies the original references of objects within the array?
+
+Answer:
+Yes.
+
+Recommend APIs:
+1. java.lang.Object.clone()
+2. java.util.List.add() -- (new)
+3. java.util.Objects.equals() -- (new)
+4. java.util.Collections.copy() -- (new)
+5. java.util.Arrays.copyOf()
+
+Revised Query: A deep copy of an object array requires replicating the values stored in the array and creating a copy of the array that modifies the original references of objects within the array.
+
+
+Questions:
+1: What type of object is the array composed of?
+2: Do you need to replicate the object references as well, or just the values stored in the array?
+3: What type of objects are contained in the array?
+please select question:
+What type of object is the array composed of?
+
+Answer:
+Objects.
+
+Recommend APIs:
+1. java.util.Arrays.copyOf(original, newLength) -- (new)
+2. java.util.Arrays.copyOfRange(original, from, to) -- (new)
+3. java.lang.Object.clone()
+4. java.lang.Object.clone(original) -- (new)
+5. java.lang.Object.deepClone() -- (new)
+
+Revised Query: A deep copy of an object array requires replicating the values stored in the array and creating a copy that modifies the original references of objects within the array.
+
+
+Questions:
+1: What type of object are you attempting to deep copy?
+2: Do you need to deep copy the array of objects, or just the values stored in the array?
+3: Do you need to make an exact copy (i.e. shallow or deep copy) of the objects in the array?
+please select question:
+What type of object are you attempting to deep copy?
+
+Answer:
+Array of objects.
+
+Recommend APIs:
+1. java.util.Arrays.copyOf -- (new)
+2. java.util.stream.Collectors.toList -- (new)
+3. java.util.Objects.deepCopy -- (new)
+4. java.util.List.forEach -- (new)
+5. java.lang.Cloneable.clone -- (new)
+
+Revised Query: The query is: Deep copy of an object array, which requires replicating the values stored in the array and creating a deep copy of the array that modifies the original references of objects within the array.
+
+
+Questions:
+1: Are any of the objects in the array primitive data types, such as integers or doubles?
+2: What type of objects are stored in the array?
+3: Are you looking to copy the references to the objects stored in the array or are you looking to create a new instance of each object and store it in the array?
+please select question:
+Are any of the objects in the array primitive data types, such as integers or doubles?
+
+Answer:
+No.
+
+Recommend APIs:
+1.java.lang.Object.clone() -- (new)
+2.java.util.Arrays.copyOf(T[] original, int newLength) -- (new)
+3.java.util.Arrays.deepCopyOf(T[] original, int newLength) -- (new)
+4.java.util.Arrays.copyOfRange(T[] original, int start, int end) -- (new)
+5.java.util.Arrays.deepCopyOfRange(T[] original, int start, int end) -- (new)
+
+Revised Query: The deep copy of an object array requires replicating the values stored in the array and creating a deep copy of the array that modifies the original references of objects within the array, which are all objects and not primitive data types.
+
+end==================================

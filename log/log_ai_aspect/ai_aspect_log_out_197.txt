@@ -1,0 +1,111 @@
+Query: Check if class exists without running into ClassNotFoundException.
+
+
+Questions:
+1: What type of class are you attempting to check for existence?
+2: What language are you using for this query?
+3: What kind of class are you trying to check for?
+please select question:
+What type of class are you attempting to check for existence?
+
+Answer:
+Any type of class.
+
+Revised Query: It is possible to check if a class exists without running into a ClassNotFoundException.
+
+Recommend APIs:
+1. java.lang.Class.forName(String name)
+2. java.lang.ClassLoader.getSystemResource(String name)
+3. java.lang.ClassLoader.getResource(String name)
+4. java.lang.ClassLoader.findResource(String name)
+5. java.lang.Class.getResource(String name)
+6. java.lang.Class.getClasses()
+7. java.lang.Class.getDeclaredClasses()
+8. java.lang.ClassLoader.getPackages()
+
+
+Questions:
+1: What type of class are you checking for?
+2: What type of class do you want to check for existence?
+3: What type of class do you want to check the existence of?
+please select question:
+What type of class are you checking for?
+
+Answer:
+The type of class being checked for depends on the query.
+
+Revised Query: The existence of a class can be checked without running into a ClassNotFoundException.
+
+Recommend APIs:
+1. java.lang.Class.forName -- (new)
+2. java.lang.Class.isInterface() -- (new)
+3. java.lang.Class.isArray() -- (new)
+4. java.lang.Class.isEnum() -- (new)
+5. java.lang.Class.isAnonymousClass() -- (new)
+6. java.lang.Class.isPrimitive() -- (new)
+7. java.lang.Class.getName() -- (new)
+
+
+Questions:
+1: What type of class do you want to check for existence?
+2: What type of class are you checking for?
+3: What type of class are you trying to find out if exists without running into ClassNotFoundException?
+please select question:
+What type of class do you want to check for existence?
+
+Answer:
+Any type of class.
+
+Revised Query: The existence of a class can be checked without running into a ClassNotFoundException.
+
+Recommend APIs:
+1. Class.isInterface()  -- (new)
+2. Class.forName()  -- (new)
+3. Class.isAssignableFrom() -- (new)
+4. ClassLoader.findLoadedClass()  -- (new)
+5. ClassLoader.findResource() -- (new)
+6. ClassLoader.loadClass() -- (new)
+7. ClassLoader.getResource() -- (new)
+
+
+Questions:
+1: What type of class are you checking for?
+2: What type of class is being checked for?
+3: What type of class needs to be checked for in the query?
+please select question:
+What type of class are you checking for?
+
+Answer:
+Any type of class.
+
+Revised Query: The existence of a class can be checked without running into a ClassNotFoundException.
+
+Recommend APIs:
+1. java.lang.Class.forName(String className) -- (new)
+2. java.lang.Class.isInstance(Object obj) -- (new)
+3. java.lang.Class.isAssignableFrom(Class<?> cls) -- (new)
+4. java.lang.ClassLoader.getSystemClassLoader() -- (new)
+5. java.lang.ClassLoader.findClass(String name) -- (new)
+6. java.lang.Class.getClassLoader() -- (new)
+
+
+Questions:
+1: What type of class do you want to check for existence?
+2: What type of class are you trying to identify?
+3: What type of class do you need to check for existence without running into ClassNotFoundException?
+please select question:
+What type of class do you want to check for existence?
+
+Answer:
+Any type of class.
+
+Revised Query: The existence of any type of class can be checked without running into a ClassNotFoundException.
+
+Recommend APIs:
+1. Class.isInterface() -- (new)
+2. Class.isAnnotation() -- (new)
+3. Class.isPrimitive() -- (new)
+4. Class.isArray() -- (new)
+5. Class.isEnum() -- (new)
+6. java.lang.ClassLoader.findLoadedClass() -- (new)
+end==================================

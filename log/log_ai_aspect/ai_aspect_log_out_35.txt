@@ -1,0 +1,106 @@
+Query: Java parse a number in exponential notation.
+
+
+Questions:
+1: What type of exponential notation should be used to parse the number in Java?
+2: How should the resulting number be represented?
+3: What is the range of exponential notation values that Java should parse?
+please select question:
+What type of exponential notation should be used to parse the number in Java?
+
+Answer:
+Double-precision floating-point format (IEEE 754)
+
+Revised Query: Java can parse a number in Double-precision floating-point format (IEEE 754) exponential notation.
+
+Recommend APIs:
+1. java.lang.Double.parseDouble(String str) 
+2. java.math.BigDecimal.valueOf(double val) 
+3. java.util.Formatter.format(String format, Object...args) 
+4. java.text.DecimalFormat.parse(String text) 
+5. java.text.NumberFormat.parseObject(String source)
+
+
+Questions:
+1: What range of IEEE 754 numbers do you want to parse?
+2: What range of numbers do you want to parse in exponential notation (e.g. positive, negative, or both)?
+3: Is the number to be parsed according to IEEE 754 double-precision floating-point format?
+please select question:
+What range of IEEE 754 numbers do you want to parse?
+
+Answer:
+IEEE 754 single-precision and double-precision numbers.
+
+Revised Query: Java can parse a number in IEEE 754 single-precision and double-precision floating-point format.
+
+Recommend APIs:
+1. java.lang.Float.intBitsToFloat(int bits) -- (new)
+2. java.lang.Double.longBitsToDouble(long bits) -- (new)
+3. java.lang.Float.floatToIntBits(float value) -- (new)
+4. java.lang.Double.doubleToLongBits(double value) -- (new)
+
+
+Questions:
+1: What specific IEE 754 format - single-precision or double-precision - is the number in exponential notation stored in?
+2: What type of double-precision format (IEEE 754) number is required for parsing the exponential notation?
+3: What type of floating-point format (IEEE 754 single-precision or double-precision) is the number to be parsed?
+please select question:
+What specific IEE 754 format - single-precision or double-precision - is the number in exponential notation stored in?
+
+Answer:
+Double-precision.
+
+Revised Query: Java can parse a number in double-precision floating-point format (IEEE 754) for both single-precision and double-precision numbers.
+
+Recommend APIs:
+1. java.lang.Double.parseDouble(String s)  -- (new)
+2. java.lang.Float.parseFloat(String s)  -- (new)
+3. java.lang.Double.doubleToRawLongBits(double d)  -- (new)
+4. java.lang.Double.longBitsToDouble(long bits)  -- (new)
+5. java.lang.Float.floatToRawIntBits(float k)  -- (new)
+6. java.lang.Float.intBitsToFloat(int bits)
+
+
+Questions:
+1: Is the exponential notation using double-precision floating-point format (IEEE 754) for both single-precision and double-precision numbers?
+2: Is the number to be parsed in single-precision or double-precision floating-point format (IEEE 754)?
+3: Which IEEE 754 double-precision format do you need Java to parse the number in exponential notation?
+please select question:
+Is the exponential notation using double-precision floating-point format (IEEE 754) for both single-precision and double-precision numbers?
+
+Answer:
+Yes.
+
+Revised Query: Java can parse a number in double-precision floating-point format (IEEE 754) for both single-precision and double-precision numbers.
+
+Recommend APIs:
+1. java.lang.Double.parseDouble(String s) 
+2. java.lang.Double.doubleToRawLongBits(double value) -- (new)
+3. java.lang.Double.doubleToLongBits(double value)
+4. java.lang.Double.longBitsToDouble(long bits)
+5. java.lang.Float.parseFloat(String s) -- (new)
+6. java.lang.Float.floatToRawIntBits(float value) -- (new)
+7. java.lang.Float.floatToIntBits(float value)
+8. java.lang.Float.intBitsToFloat(int bits)
+
+
+Questions:
+1: Is the number to be parsed in IEEE 754 single-precision or double-precision format?
+2: What precision number type do you want to parse (single-precision or double-precision using IEEE 754)?
+3: What double-precision floating-point format are you expecting to parse the number in exponential notation? (IEEE 754 single-precision or double-precision?)
+please select question:
+Is the number to be parsed in IEEE 754 single-precision or double-precision format?
+
+Answer:
+The purpose of parsing the number is to determine its IEEE 754 single-precision or double-precision format.
+
+Revised Query: Java can parse a number in double-precision floating-point format (IEEE 754) for both single-precision and double-precision numbers.
+
+Recommend APIs:
+1. java.lang.Double.parseDouble(String s) -- (new)
+2. java.lang.Float.parseFloat(String s)
+3. java.math.BigDecimal.doubleValue() -- (new)
+4. java.nio.DoubleBuffer.put(double d) -- (new)
+5. java.util.DoubleSummaryStatistics.accept(double d) -- (new)
+6. java.math.BigDecimal.valueOf(double d) -- (new)
+end==================================

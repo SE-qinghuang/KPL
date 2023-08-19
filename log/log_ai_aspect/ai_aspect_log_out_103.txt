@@ -1,0 +1,106 @@
+Query: Java - Splitting String based on multiple delimiters.
+
+
+Questions:
+1: What specific operations need to be performed on the String?
+2: What type of output do you need after splitting the String based on multiple delimiters?
+3: What specific delimiters need to be used in the string split operation?
+please select question:
+What specific operations need to be performed on the String?
+
+Answer:
+Splitting the String based on multiple delimiters.
+
+Revised Query: The query is asking for a way to split a String based on multiple delimiters.
+
+Recommend APIs:
+1. java.lang.String.split(String regex)
+2. java.util.StringTokenizer.nextToken()
+3. java.util.StringJoiner.add()
+4. java.util.regex.Pattern.split(CharSequence input)
+5. java.util.StringJoiner.toString()
+6. java.lang.String.replaceAll(String regex)
+
+
+Questions:
+1: Is the splitter for each delimiter the same or unique?
+2: What type of delimiters is the String being split on?
+3: How many delimiters should be used to split the String?
+please select question:
+Is the splitter for each delimiter the same or unique?
+
+Answer:
+Unique.
+
+Revised Query: The query is to perform splitting of a String based on multiple unique delimiters.
+
+Recommend APIs:
+1. java.lang.String.split(String regex)
+2. java.lang.String.split(String regex, int limit) -- (new)
+3. java.util.StringTokenizer.StringTokenizer(String str, String delimiters) -- (new)
+4. java.util.regex.Pattern.split​(CharSequence input, int limit) -- (new)
+5. java.util.StringJoiner.add(CharSequence element) -- (new)
+6. java.util.StringJoiner.setEmptyValue​(CharSequence emptyValue) -- (new)
+
+
+Questions:
+1: What is the expected output after splitting the String with multiple delimiters?
+2: What type of delimiters are you using to split the String?
+3: What type of delimiters are you wanting to use for splitting the String?
+please select question:
+What is the expected output after splitting the String with multiple delimiters?
+
+Answer:
+The expected output after splitting the String with multiple delimiters is an array of substrings.
+
+Revised Query: The query is to perform splitting of a String based on multiple unique delimiters, resulting in an array of substrings as the output.
+
+Recommend APIs:
+1. java.util.StringTokenizer.hasMoreTokens -- (new)
+2. java.lang.String.split  -- (new)
+3. java.lang.String.equals  -- (new)
+4. java.util.StringTokenizer.nextToken  -- (new)
+5. java.util.StringTokenizer.countTokens  -- (new)
+6. java.util.StringTokenizer.nextElement  -- (new)
+7. java.util.ArrayList.add -- (new)
+
+
+Questions:
+1: What type of array do you expect as the output?
+2: What is the data-type of the delimiter(s) used to split the String?
+3: What data type is expected for the delimiters of the String?
+please select question:
+What type of array do you expect as the output?
+
+Answer:
+String array.
+
+Revised Query: The query is to perform splitting of a String based on multiple delimiters, with each delimiter having a unique splitter, resulting in an output of a String array.
+
+Recommend APIs:
+1. java.lang.String.split(String regex, int limit)  -- (new)
+2. java.util.StringTokenizer.StringTokenizer(String str,String delim)  -- (new)
+3. java.lang.String.split(String regex)  -- (new)
+4. java.util.StringTokenizer.nextToken(String delim)  -- (new)
+5. java.util.StringTokenizer.hasMoreTokens() -- (new)
+
+
+Questions:
+1: Does the Java API need to support splitting the String by all of the delimiters simultaneously, or separately for each delimiter?
+2: What is the desired size of the String array after splitting the String based on multiple delimiters?
+3: Would the size of the returned array of substrings depend on the number of delimiters used to split the string?
+please select question:
+Does the Java API need to support splitting the String by all of the delimiters simultaneously, or separately for each delimiter?
+
+Answer:
+The Java API needs to support splitting the String by all of the delimiters simultaneously.
+
+Revised Query: The query is to find a Java API that can split a String based on multiple delimiters simultaneously, with the expected output being an array of substrings.
+
+Recommend APIs:
+1. java.util.StringTokenizer.nextToken(String delimiters) -- (new)
+2. java.util.regex.Pattern.split(String input,int limit) -- (new)
+3. java.util.String.split(String regex,  int limit) -- (new)
+4. java.util.StringTokenizer.hasMoreTokens()
+5. java.util.String.split(String regex) -- (new)
+end==================================

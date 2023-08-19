@@ -1,0 +1,116 @@
+Query: Defensive copy of Calendar.
+
+
+Questions:
+1: Are you looking for ways to perform a defensive copy of java.util.Calendar or java.time.Calendar?
+2: Are you looking to clone a Calendar or copy values from one Calendar to another?
+3: What is the purpose of the defensive copy?
+please select question:
+Are you looking for ways to perform a defensive copy of java.util.Calendar or java.time.Calendar?
+
+Answer:
+java.util.Calendar
+
+Recommend APIs:
+1. java.util.Calendar.clone()
+2. java.util.Calendar.getInstance()
+3. java.util.Calendar.getTime()
+4. java.util.Calendar.setTime()
+5. java.util.GregorianCalendar.GregorianCalendar(int year, int month, int date)
+6. java.util.Calendar.set(int field, int value)
+
+Revised Query: I am looking for ways to perform a defensive copy of java.util.Calendar.
+
+
+Questions:
+1: What type of copy of Calendar do you need to create?
+2: What type of copy are you looking for? A shallow or a deep copy of the Calendar object?
+3: Would you like the defensive copy of Calendar to clone the original Calendar object or create new Calendar objects based on the original Calendar object's values?
+please select question:
+What type of copy of Calendar do you need to create?
+
+Answer:
+A backup copy.
+
+Recommend APIs:
+1. java.util.Calendar.clone()
+2. java.util.Calendar.getTime()
+3. java.util.Calendar.getTimeInMillis() -- (new)
+4. java.io.ObjectOutputStream.writeObject() -- (new)
+5. java.io.ObjectInputStream.readObject() -- (new)
+6. java.io.FileOutputStream.writeObject() -- (new)
+7. java.io.FileInputStream.readObject() -- (new)
+
+Revised Query: A defensive copy of java.util.Calendar can be created by making a backup copy.
+
+
+Questions:
+1: Do you need the defensive copy to be immutable?
+2: What kind of defensive copy of Calendar do you need? Do you need a hard copy or a shallow copy?
+3: Are you looking to create a defensive copy of the java.util.Calendar object, or are you trying to create a backup copy?
+please select question:
+Do you need the defensive copy to be immutable?
+
+Answer:
+No.
+
+Recommend APIs:
+1. java.util.Calendar.clone()
+2. java.util.Calendar.setTimeInMillis() -- (new)
+3. java.util.Calendar.getTimeInMillis()
+4. java.util.Calendar.setTime()
+5. java.util.Calendar.getTime()
+6. java.util.Calendar.set(int, int) -- (new)
+7. java.util.Calendar.get(int) -- (new)
+8. java.util.Calendar.add(int, int) -- (new)
+
+Revised Query: I need to create a defensive backup copy of java.util.Calendar.
+
+
+Questions:
+1: Do you need to make a defensive copy of the java.util.Calendar object?
+2: Do you need a backup copy of the existing Calendar object or an entirely new Calendar object?
+3: Do you need a copy of Calendar in its existing state or a modifiable copy?
+please select question:
+Do you need to make a defensive copy of the java.util.Calendar object?
+
+Answer:
+Yes, you should make a defensive copy of the java.util.Calendar object.
+
+Recommend APIs:
+1. java.lang.Object.clone() -- (new)
+2. java.util.GregorianCalendar.clone() -- (new)
+3. java.util.Calendar.getTimeZone() -- (new)
+4. java.util.Calendar.setTimeZone() -- (new)
+5. java.util.Calendar.getTimeInMillis()
+6. java.util.Calendar.setTimeInMillis()
+7. java.util.Calendar.getLenient() -- (new)
+8. java.util.Calendar.setLenient() -- (new)
+
+Revised Query: A defensive copy of java.util.Calendar should be created in order to make a backup copy that is not immutable.
+
+
+Questions:
+1: What is the purpose of the defensive copy of the java.util.Calendar object?
+2: Do you need to modify the Calendar object or are you merely referencing it?
+3: What is the purpose of making a defensive copy?
+please select question:
+What is the purpose of the defensive copy of the java.util.Calendar object?
+
+Answer:
+The purpose of the defensive copy of the java.util.Calendar object is to ensure that the original object is not modified by any external code.
+
+Recommend APIs:
+1. java.util.Calendar.clone()
+2. java.lang.Object.clone()
+3. java.util.Calendar.setLenient(boolean lenient) -- (new)
+4. java.util.Calendar.getTimeZone()
+5. java.util.Calendar.setTimeZone(TimeZone timezone) -- (new)
+6. java.util.Calendar.getTime()
+7. java.util.Calendar.setTime(Date date) -- (new)
+8. java.util.Calendar.get(int field) -- (new)
+9. java.util.Calendar.set(int field,int value) -- (new)
+
+Revised Query: A defensive copy of java.util.Calendar should be created in order to ensure that the original object is not modified by any external code.
+
+end==================================

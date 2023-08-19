@@ -1,0 +1,82 @@
+Query: Reopen database connection in Java.
+
+
+Questions:
+1: What type of database connection requires reopening in Java?
+2: Is this a database connection that was previously closed, or a connection to a new database?
+3: What type of database connection are you looking to reopen?
+please select question:
+What type of database connection requires reopening in Java?
+
+Help information:
+1. JDBC connections 
+2. Hibernate connections 
+3. JPA connections 
+4. Native connections 
+5. ORM connections
+
+please input answer:
+Answer: JDBC connections
+
+Revised Query: JDBC connections in Java require reopening.
+
+Recommend APIs:
+1. java.sql.Connection.close()
+2. java.sql.DriverManager.getConnection(String url, String user, String password)
+3. java.sql.Connection.isClosed()
+4. java.sql.Connection.createStatement()
+5. java.sql.Statement.executeQuery(String sql)
+6. java.sql.ResultSet.next()
+
+
+Questions:
+1: "What kind of JDBC connection are you trying to reopen?"
+2: Which JDBC connection do you want to reopen?
+3: What specific JDBC connection should be reopened?
+please select question:
+Which JDBC connection do you want to reopen?
+
+Help information:
+1. Establish a new connection using the DriverManager class. 
+2. Reuse an existing connection by calling the getConnection() method. 
+3. Reopen a closed connection by calling the close() and open() methods. 
+4. Reestablish a connection by calling the reconnect() method.
+
+please input answer:
+Answer: Reuse an existing connection by calling the getConnection() method.
+
+Revised Query: Reopen a JDBC connection in Java by calling the getConnection() method.
+
+Recommend APIs:
+1. java.sql.DriverManager.getConnection(String url) -- (new)
+2. java.sql.Connection.close()
+3. java.sql.Connection.isClosed()
+4. java.sql.DriverManager.getDrivers() -- (new)
+
+
+Questions:
+1: Is the goal to create a new connection or to reuse an existing connection with the getConnection() method?
+2: Is this an existing JDBC connection or a new JDBC connection?
+3: Does the database connection need to be reopened using a JDBC connection and the getConnection() method?
+please select question:
+Is the goal to create a new connection or to reuse an existing connection with the getConnection() method?
+
+Help information:
+1. Reuse an existing connection with the getConnection() method 
+2. Create a new connection 
+3. Close the existing connection and create a new one 
+4. Check if a connection is already open and use it if it is
+
+please input answer:
+Answer: Reuse an existing connection with the getConnection() method
+
+Revised Query: The goal is to reuse an existing JDBC connection in Java by calling the getConnection() method.
+
+Recommend APIs:
+1. java.sql.DriverManager.getConnection(String url, String user, String password)  -- (new)
+2. java.sql.DriverManager.getConnection(String url)
+3. java.sql.Connection.getMetaData() -- (new)
+4. java.sql.Driver.connect(String url, Properties info)  -- (new)
+5. java.sql.DriverManager.getDrivers()  -- (new)
+6. java.sql.DriverManager.registerDriver(Driver driver) -- (new)
+end==================================
